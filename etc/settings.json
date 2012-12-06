@@ -4,8 +4,8 @@
       "projectName":"receiveData",
       "logUrl":"http://172.16.39.36:10060/logsPost", 
       "initRedis":{
-	    "host":"172.16.33.203",
-	    "port":6390
+	    "host":"127.0.0.1",
+	    "port":6379
   	},
   	"serverport":10050,
   	"receiver":{

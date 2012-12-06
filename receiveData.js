@@ -17,7 +17,7 @@ app.post(configs.receiver.capital, function(req, res) {
 	//log.debug(req.body.interface+'222222');
 	var parse = { 'parse':req.body,'res':res,'code':0};
 	//res.end('send sucess.');
-	//console.log(color.grey('receive sucess.'));
+	console.log(req.body);
 	pkParse.emit("has-parse",parse);
 });
 
