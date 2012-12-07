@@ -1,0 +1,1684 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-d' ]
+2 info using npm@1.1.61
+3 info using node@v0.8.9
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json G:\receiverData\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'G:\\receiverData',
+7 verbose install   [ 'express', 'underscore', 'request', 'async', 'redis', 'hiredis' ] ]
+8 verbose from cache G:\receiverData\package.json
+9 info preinstall receiverData@0.1.0
+10 verbose from cache G:\receiverData\package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'express@>= 2.5.2', null ]
+13 silly cache add name=undefined spec="express@>= 2.5.2" args=["express@>= 2.5.2",null]
+14 verbose parsed url { pathname: 'express@%3E=%202.5.2',
+14 verbose parsed url   path: 'express@%3E=%202.5.2',
+14 verbose parsed url   href: 'express@%3E=%202.5.2' }
+15 silly cache add name="express" spec=">= 2.5.2" args=["express",">= 2.5.2"]
+16 verbose parsed url { pathname: '%3E=%202.5.2',
+16 verbose parsed url   path: '%3E=%202.5.2',
+16 verbose parsed url   href: '%3E=%202.5.2' }
+17 verbose addNamed [ 'express', '>= 2.5.2' ]
+18 verbose addNamed [ null, '>=2.5.2' ]
+19 verbose cache add [ 'underscore@>= 1.2.3', null ]
+20 silly cache add name=undefined spec="underscore@>= 1.2.3" args=["underscore@>= 1.2.3",null]
+21 verbose parsed url { pathname: 'underscore@%3E=%201.2.3',
+21 verbose parsed url   path: 'underscore@%3E=%201.2.3',
+21 verbose parsed url   href: 'underscore@%3E=%201.2.3' }
+22 silly cache add name="underscore" spec=">= 1.2.3" args=["underscore",">= 1.2.3"]
+23 verbose parsed url { pathname: '%3E=%201.2.3',
+23 verbose parsed url   path: '%3E=%201.2.3',
+23 verbose parsed url   href: '%3E=%201.2.3' }
+24 verbose addNamed [ 'underscore', '>= 1.2.3' ]
+25 verbose addNamed [ null, '>=1.2.3' ]
+26 verbose cache add [ 'request@>= 2.2.0', null ]
+27 silly cache add name=undefined spec="request@>= 2.2.0" args=["request@>= 2.2.0",null]
+28 verbose parsed url { pathname: 'request@%3E=%202.2.0',
+28 verbose parsed url   path: 'request@%3E=%202.2.0',
+28 verbose parsed url   href: 'request@%3E=%202.2.0' }
+29 silly cache add name="request" spec=">= 2.2.0" args=["request",">= 2.2.0"]
+30 verbose parsed url { pathname: '%3E=%202.2.0',
+30 verbose parsed url   path: '%3E=%202.2.0',
+30 verbose parsed url   href: '%3E=%202.2.0' }
+31 verbose addNamed [ 'request', '>= 2.2.0' ]
+32 verbose addNamed [ null, '>=2.2.0' ]
+33 verbose cache add [ 'async@>= 0.1.18', null ]
+34 silly cache add name=undefined spec="async@>= 0.1.18" args=["async@>= 0.1.18",null]
+35 verbose parsed url { pathname: 'async@%3E=%200.1.18',
+35 verbose parsed url   path: 'async@%3E=%200.1.18',
+35 verbose parsed url   href: 'async@%3E=%200.1.18' }
+36 silly cache add name="async" spec=">= 0.1.18" args=["async",">= 0.1.18"]
+37 verbose parsed url { pathname: '%3E=%200.1.18',
+37 verbose parsed url   path: '%3E=%200.1.18',
+37 verbose parsed url   href: '%3E=%200.1.18' }
+38 verbose addNamed [ 'async', '>= 0.1.18' ]
+39 verbose addNamed [ null, '>=0.1.18' ]
+40 verbose cache add [ 'redis@>= 0.7.2', null ]
+41 silly cache add name=undefined spec="redis@>= 0.7.2" args=["redis@>= 0.7.2",null]
+42 verbose parsed url { pathname: 'redis@%3E=%200.7.2',
+42 verbose parsed url   path: 'redis@%3E=%200.7.2',
+42 verbose parsed url   href: 'redis@%3E=%200.7.2' }
+43 silly cache add name="redis" spec=">= 0.7.2" args=["redis",">= 0.7.2"]
+44 verbose parsed url { pathname: '%3E=%200.7.2',
+44 verbose parsed url   path: '%3E=%200.7.2',
+44 verbose parsed url   href: '%3E=%200.7.2' }
+45 verbose addNamed [ 'redis', '>= 0.7.2' ]
+46 verbose addNamed [ null, '>=0.7.2' ]
+47 verbose cache add [ 'hiredis@>=0.1.14', null ]
+48 silly cache add name=undefined spec="hiredis@>=0.1.14" args=["hiredis@>=0.1.14",null]
+49 verbose parsed url { pathname: 'hiredis@%3E=0.1.14',
+49 verbose parsed url   path: 'hiredis@%3E=0.1.14',
+49 verbose parsed url   href: 'hiredis@%3E=0.1.14' }
+50 silly cache add name="hiredis" spec=">=0.1.14" args=["hiredis",">=0.1.14"]
+51 verbose parsed url { pathname: '%3E=0.1.14',
+51 verbose parsed url   path: '%3E=0.1.14',
+51 verbose parsed url   href: '%3E=0.1.14' }
+52 verbose addNamed [ 'hiredis', '>=0.1.14' ]
+53 verbose addNamed [ null, '>=0.1.14' ]
+54 silly lockFile e6ebf83f-express-2-5-2 express@>= 2.5.2
+55 verbose lock express@>= 2.5.2 C:\Users\wuyanfei\AppData\Roaming\npm-cache\e6ebf83f-express-2-5-2.lock
+56 silly lockFile ddd7fe2f-underscore-1-2-3 underscore@>= 1.2.3
+57 verbose lock underscore@>= 1.2.3 C:\Users\wuyanfei\AppData\Roaming\npm-cache\ddd7fe2f-underscore-1-2-3.lock
+58 silly lockFile aee6de10-request-2-2-0 request@>= 2.2.0
+59 verbose lock request@>= 2.2.0 C:\Users\wuyanfei\AppData\Roaming\npm-cache\aee6de10-request-2-2-0.lock
+60 silly lockFile fd393ea5-async-0-1-18 async@>= 0.1.18
+61 verbose lock async@>= 0.1.18 C:\Users\wuyanfei\AppData\Roaming\npm-cache\fd393ea5-async-0-1-18.lock
+62 silly lockFile c0a962d0-redis-0-7-2 redis@>= 0.7.2
+63 verbose lock redis@>= 0.7.2 C:\Users\wuyanfei\AppData\Roaming\npm-cache\c0a962d0-redis-0-7-2.lock
+64 silly lockFile 2fd6c186-hiredis-0-1-14 hiredis@>=0.1.14
+65 verbose lock hiredis@>=0.1.14 C:\Users\wuyanfei\AppData\Roaming\npm-cache\2fd6c186-hiredis-0-1-14.lock
+66 silly addNameRange { name: 'underscore', range: '>=1.2.3', hasData: false }
+67 silly addNameRange { name: 'express', range: '>=2.5.2', hasData: false }
+68 silly addNameRange { name: 'async', range: '>=0.1.18', hasData: false }
+69 silly addNameRange { name: 'redis', range: '>=0.7.2', hasData: false }
+70 verbose url raw underscore
+71 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+72 verbose url resolved https://registry.npmjs.org/underscore
+73 info trying registry request attempt 1 at 13:22:17
+74 verbose etag "6L4RLW01H9MAKVC1DWIC3YGNV"
+75 http GET https://registry.npmjs.org/underscore
+76 silly addNameRange { name: 'hiredis', range: '>=0.1.14', hasData: false }
+77 silly addNameRange { name: 'request', range: '>=2.2.0', hasData: false }
+78 verbose url raw async
+79 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+80 verbose url resolved https://registry.npmjs.org/async
+81 info trying registry request attempt 1 at 13:22:17
+82 verbose etag "R705GVCKKLN43YXAMGBCXNG"
+83 http GET https://registry.npmjs.org/async
+84 verbose url raw redis
+85 verbose url resolving [ 'https://registry.npmjs.org/', './redis' ]
+86 verbose url resolved https://registry.npmjs.org/redis
+87 info trying registry request attempt 1 at 13:22:17
+88 verbose etag "2YSF5EM9XIQFDT35CAXKTE1QR"
+89 http GET https://registry.npmjs.org/redis
+90 verbose url raw express
+91 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+92 verbose url resolved https://registry.npmjs.org/express
+93 info trying registry request attempt 1 at 13:22:17
+94 verbose etag "80GGDHAP6X4OEPTNFCPEV8S72"
+95 http GET https://registry.npmjs.org/express
+96 verbose url raw hiredis
+97 verbose url resolving [ 'https://registry.npmjs.org/', './hiredis' ]
+98 verbose url resolved https://registry.npmjs.org/hiredis
+99 info trying registry request attempt 1 at 13:22:17
+100 verbose etag "AX8BLG3CQT93DXS1FS85LCNNS"
+101 http GET https://registry.npmjs.org/hiredis
+102 verbose url raw request
+103 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+104 verbose url resolved https://registry.npmjs.org/request
+105 info trying registry request attempt 1 at 13:22:17
+106 verbose etag "4Z8GNVPJB6N5OX531KEO1CGZN"
+107 http GET https://registry.npmjs.org/request
+108 http 304 https://registry.npmjs.org/async
+109 silly registry.get cb [ 304,
+109 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+109 silly registry.get     etag: '"R705GVCKKLN43YXAMGBCXNG"',
+109 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:49 GMT',
+109 silly registry.get     'content-length': '0' } ]
+110 verbose etag async from cache
+111 silly addNameRange number 2 { name: 'async', range: '>=0.1.18', hasData: true }
+112 silly addNameRange versions [ 'async',
+112 silly addNameRange   [ '0.1.0',
+112 silly addNameRange     '0.1.1',
+112 silly addNameRange     '0.1.2',
+112 silly addNameRange     '0.1.3',
+112 silly addNameRange     '0.1.4',
+112 silly addNameRange     '0.1.5',
+112 silly addNameRange     '0.1.6',
+112 silly addNameRange     '0.1.7',
+112 silly addNameRange     '0.1.8',
+112 silly addNameRange     '0.1.9',
+112 silly addNameRange     '0.1.10',
+112 silly addNameRange     '0.1.11',
+112 silly addNameRange     '0.1.12',
+112 silly addNameRange     '0.1.13',
+112 silly addNameRange     '0.1.14',
+112 silly addNameRange     '0.1.15',
+112 silly addNameRange     '0.1.16',
+112 silly addNameRange     '0.1.17',
+112 silly addNameRange     '0.1.18',
+112 silly addNameRange     '0.1.19',
+112 silly addNameRange     '0.1.20',
+112 silly addNameRange     '0.1.21',
+112 silly addNameRange     '0.1.22' ] ]
+113 verbose addNamed [ 'async', '0.1.22' ]
+114 verbose addNamed [ '0.1.22', '0.1.22' ]
+115 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+116 verbose lock async@0.1.22 C:\Users\wuyanfei\AppData\Roaming\npm-cache\09d21715-async-0-1-22.lock
+117 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\async\0.1.22\package\package.json
+118 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+119 silly lockFile fd393ea5-async-0-1-18 async@>= 0.1.18
+120 http 200 https://registry.npmjs.org/hiredis
+121 silly registry.get cb [ 200,
+121 silly registry.get   { vary: 'Accept',
+121 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+121 silly registry.get     etag: '"4C2MD33WGD8Z1S70ACPDA6KRA"',
+121 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:49 GMT',
+121 silly registry.get     'content-type': 'application/json',
+121 silly registry.get     'content-length': '9779' } ]
+122 silly addNameRange number 2 { name: 'hiredis', range: '>=0.1.14', hasData: true }
+123 silly addNameRange versions [ 'hiredis',
+123 silly addNameRange   [ '0.1.0',
+123 silly addNameRange     '0.1.1',
+123 silly addNameRange     '0.1.2',
+123 silly addNameRange     '0.1.3',
+123 silly addNameRange     '0.1.4',
+123 silly addNameRange     '0.1.5',
+123 silly addNameRange     '0.1.6',
+123 silly addNameRange     '0.1.8',
+123 silly addNameRange     '0.1.9',
+123 silly addNameRange     '0.1.10',
+123 silly addNameRange     '0.1.12',
+123 silly addNameRange     '0.1.13',
+123 silly addNameRange     '0.1.14' ] ]
+124 verbose addNamed [ 'hiredis', '0.1.14' ]
+125 verbose addNamed [ '0.1.14', '0.1.14' ]
+126 silly lockFile e9c5aa12-hiredis-0-1-14 hiredis@0.1.14
+127 verbose lock hiredis@0.1.14 C:\Users\wuyanfei\AppData\Roaming\npm-cache\e9c5aa12-hiredis-0-1-14.lock
+128 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\hiredis\0.1.14\package\package.json
+129 http 304 https://registry.npmjs.org/request
+130 silly registry.get cb [ 304,
+130 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+130 silly registry.get     etag: '"4Z8GNVPJB6N5OX531KEO1CGZN"',
+130 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:50 GMT',
+130 silly registry.get     'content-length': '0' } ]
+131 verbose etag request from cache
+132 silly addNameRange number 2 { name: 'request', range: '>=2.2.0', hasData: true }
+133 silly addNameRange versions [ 'request',
+133 silly addNameRange   [ '0.10.0',
+133 silly addNameRange     '0.8.3',
+133 silly addNameRange     '0.9.0',
+133 silly addNameRange     '0.9.1',
+133 silly addNameRange     '0.9.5',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.2.0',
+133 silly addNameRange     '1.9.0',
+133 silly addNameRange     '1.9.1',
+133 silly addNameRange     '1.9.2',
+133 silly addNameRange     '1.9.3',
+133 silly addNameRange     '1.9.5',
+133 silly addNameRange     '1.9.7',
+133 silly addNameRange     '1.9.8',
+133 silly addNameRange     '1.9.9',
+133 silly addNameRange     '2.0.0',
+133 silly addNameRange     '2.0.1',
+133 silly addNameRange     '2.0.2',
+133 silly addNameRange     '2.0.3',
+133 silly addNameRange     '2.0.4',
+133 silly addNameRange     '2.0.5',
+133 silly addNameRange     '2.1.0',
+133 silly addNameRange     '2.1.1',
+133 silly addNameRange     '2.2.0',
+133 silly addNameRange     '2.2.5',
+133 silly addNameRange     '2.2.6',
+133 silly addNameRange     '2.2.9',
+133 silly addNameRange     '2.9.0',
+133 silly addNameRange     '2.9.1',
+133 silly addNameRange     '2.9.2',
+133 silly addNameRange     '2.9.3',
+133 silly addNameRange     '2.9.100',
+133 silly addNameRange     '2.9.150',
+133 silly addNameRange     '2.9.151',
+133 silly addNameRange     '2.9.152',
+133 silly addNameRange     '2.9.153',
+133 silly addNameRange     '2.9.200',
+133 silly addNameRange     '2.9.201',
+133 silly addNameRange     '2.9.202',
+133 silly addNameRange     '2.9.203',
+133 silly addNameRange     '2.10.0',
+133 silly addNameRange     '2.11.0',
+133 silly addNameRange     '2.11.1',
+133 silly addNameRange     '2.11.2',
+133 silly addNameRange     '2.11.3',
+133 silly addNameRange     '2.11.4',
+133 silly addNameRange     '2.12.0' ] ]
+134 verbose addNamed [ 'request', '2.12.0' ]
+135 verbose addNamed [ '2.12.0', '2.12.0' ]
+136 silly lockFile ba282548-request-2-12-0 request@2.12.0
+137 verbose lock request@2.12.0 C:\Users\wuyanfei\AppData\Roaming\npm-cache\ba282548-request-2-12-0.lock
+138 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\request\2.12.0\package\package.json
+139 warn package.json hiredis@0.1.14 No README.md file found!
+140 silly lockFile e9c5aa12-hiredis-0-1-14 hiredis@0.1.14
+141 silly lockFile 2fd6c186-hiredis-0-1-14 hiredis@>=0.1.14
+142 silly lockFile ba282548-request-2-12-0 request@2.12.0
+143 silly lockFile aee6de10-request-2-2-0 request@>= 2.2.0
+144 http 200 https://registry.npmjs.org/underscore
+145 silly registry.get cb [ 200,
+145 silly registry.get   { vary: 'Accept',
+145 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+145 silly registry.get     etag: '"E1Z9C1R9O59B9WE5UQVH65GY2"',
+145 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:49 GMT',
+145 silly registry.get     'content-type': 'application/json',
+145 silly registry.get     'content-length': '29780' } ]
+146 silly addNameRange number 2 { name: 'underscore', range: '>=1.2.3', hasData: true }
+147 silly addNameRange versions [ 'underscore',
+147 silly addNameRange   [ '1.0.3',
+147 silly addNameRange     '1.0.4',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '1.1.3',
+147 silly addNameRange     '1.1.4',
+147 silly addNameRange     '1.1.5',
+147 silly addNameRange     '1.1.6',
+147 silly addNameRange     '1.1.7',
+147 silly addNameRange     '1.2.0',
+147 silly addNameRange     '1.2.1',
+147 silly addNameRange     '1.2.2',
+147 silly addNameRange     '1.2.3',
+147 silly addNameRange     '1.2.4',
+147 silly addNameRange     '1.3.0',
+147 silly addNameRange     '1.3.1',
+147 silly addNameRange     '1.3.2',
+147 silly addNameRange     '1.3.3',
+147 silly addNameRange     '1.4.0',
+147 silly addNameRange     '1.4.1',
+147 silly addNameRange     '1.4.2',
+147 silly addNameRange     '1.4.3' ] ]
+148 verbose addNamed [ 'underscore', '1.4.3' ]
+149 verbose addNamed [ '1.4.3', '1.4.3' ]
+150 silly lockFile 409ff123-underscore-1-4-3 underscore@1.4.3
+151 verbose lock underscore@1.4.3 C:\Users\wuyanfei\AppData\Roaming\npm-cache\409ff123-underscore-1-4-3.lock
+152 silly lockFile f822db62--underscore-underscore-1-4-3-tgz https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz
+153 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\f822db62--underscore-underscore-1-4-3-tgz.lock
+154 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz',
+154 verbose addRemoteTarball   'b3d0aaa1ee74d886ea4f2648021a4f8ad779ed1d' ]
+155 info retry fetch attempt 1 at 13:22:19
+156 verbose fetch to= C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\tmp.tgz
+157 http GET https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz
+158 http 200 https://registry.npmjs.org/redis
+159 silly registry.get cb [ 200,
+159 silly registry.get   { vary: 'Accept',
+159 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+159 silly registry.get     etag: '"4E7TJ7IFGQ24MQXITVNGIZUAD"',
+159 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:49 GMT',
+159 silly registry.get     'content-type': 'application/json',
+159 silly registry.get     'content-length': '173613' } ]
+160 silly addNameRange number 2 { name: 'redis', range: '>=0.7.2', hasData: true }
+161 silly addNameRange versions [ 'redis',
+161 silly addNameRange   [ '0.0.1',
+161 silly addNameRange     '0.0.2',
+161 silly addNameRange     '0.0.3',
+161 silly addNameRange     '0.0.4',
+161 silly addNameRange     '0.0.7',
+161 silly addNameRange     '0.0.8',
+161 silly addNameRange     '0.1.0',
+161 silly addNameRange     '0.1.1',
+161 silly addNameRange     '0.1.2',
+161 silly addNameRange     '0.2.0',
+161 silly addNameRange     '0.2.1',
+161 silly addNameRange     '0.2.2',
+161 silly addNameRange     '0.2.3',
+161 silly addNameRange     '0.2.4',
+161 silly addNameRange     '0.2.6',
+161 silly addNameRange     '0.3.0',
+161 silly addNameRange     '0.3.1',
+161 silly addNameRange     '0.3.2',
+161 silly addNameRange     '0.3.3',
+161 silly addNameRange     '0.3.4',
+161 silly addNameRange     '0.3.5',
+161 silly addNameRange     '0.3.6',
+161 silly addNameRange     '0.3.7',
+161 silly addNameRange     '0.3.9',
+161 silly addNameRange     '0.4.0',
+161 silly addNameRange     '0.4.1',
+161 silly addNameRange     '0.4.2',
+161 silly addNameRange     '0.5.0',
+161 silly addNameRange     '0.5.1',
+161 silly addNameRange     '0.5.2',
+161 silly addNameRange     '0.5.3',
+161 silly addNameRange     '0.5.4',
+161 silly addNameRange     '0.5.5',
+161 silly addNameRange     '0.5.6',
+161 silly addNameRange     '0.5.7',
+161 silly addNameRange     '0.5.8',
+161 silly addNameRange     '0.5.9',
+161 silly addNameRange     '0.5.10',
+161 silly addNameRange     '0.5.11',
+161 silly addNameRange     '0.6.0',
+161 silly addNameRange     '0.6.1',
+161 silly addNameRange     '0.6.2',
+161 silly addNameRange     '0.6.3',
+161 silly addNameRange     '0.6.4',
+161 silly addNameRange     '0.6.5',
+161 silly addNameRange     '0.6.6',
+161 silly addNameRange     '0.6.7',
+161 silly addNameRange     '0.7.0',
+161 silly addNameRange     '0.7.1',
+161 silly addNameRange     '0.7.2',
+161 silly addNameRange     '0.7.3',
+161 silly addNameRange     '0.8.0',
+161 silly addNameRange     '0.8.1',
+161 silly addNameRange     '0.8.2' ] ]
+162 verbose addNamed [ 'redis', '0.8.2' ]
+163 verbose addNamed [ '0.8.2', '0.8.2' ]
+164 silly lockFile 0e7a726c-redis-0-8-2 redis@0.8.2
+165 verbose lock redis@0.8.2 C:\Users\wuyanfei\AppData\Roaming\npm-cache\0e7a726c-redis-0-8-2.lock
+166 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\redis\0.8.2\package\package.json
+167 silly lockFile 0e7a726c-redis-0-8-2 redis@0.8.2
+168 silly lockFile c0a962d0-redis-0-7-2 redis@>= 0.7.2
+169 http 200 https://registry.npmjs.org/express
+170 silly registry.get cb [ 200,
+170 silly registry.get   { vary: 'Accept',
+170 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+170 silly registry.get     etag: '"3ZJMTMO9YTSHBEM3XWMH4FCB8"',
+170 silly registry.get     date: 'Fri, 07 Dec 2012 05:21:49 GMT',
+170 silly registry.get     'content-type': 'application/json',
+170 silly registry.get     'content-length': '246133' } ]
+171 silly addNameRange number 2 { name: 'express', range: '>=2.5.2', hasData: true }
+172 silly addNameRange versions [ 'express',
+172 silly addNameRange   [ '0.14.0',
+172 silly addNameRange     '0.14.1',
+172 silly addNameRange     '1.0.0beta',
+172 silly addNameRange     '1.0.0beta2',
+172 silly addNameRange     '1.0.0rc',
+172 silly addNameRange     '1.0.0rc2',
+172 silly addNameRange     '1.0.0rc3',
+172 silly addNameRange     '1.0.0rc4',
+172 silly addNameRange     '1.0.0',
+172 silly addNameRange     '1.0.1',
+172 silly addNameRange     '1.0.2',
+172 silly addNameRange     '1.0.3',
+172 silly addNameRange     '1.0.4',
+172 silly addNameRange     '1.0.5',
+172 silly addNameRange     '1.0.6',
+172 silly addNameRange     '1.0.7',
+172 silly addNameRange     '2.0.0beta',
+172 silly addNameRange     '1.0.8',
+172 silly addNameRange     '2.0.0beta2',
+172 silly addNameRange     '2.0.0beta3',
+172 silly addNameRange     '2.0.0rc',
+172 silly addNameRange     '2.0.0rc2',
+172 silly addNameRange     '2.0.0rc3',
+172 silly addNameRange     '2.0.0',
+172 silly addNameRange     '2.1.0',
+172 silly addNameRange     '2.1.1',
+172 silly addNameRange     '2.2.0',
+172 silly addNameRange     '2.2.1',
+172 silly addNameRange     '2.2.2',
+172 silly addNameRange     '2.3.0',
+172 silly addNameRange     '2.3.1',
+172 silly addNameRange     '2.3.2',
+172 silly addNameRange     '2.3.3',
+172 silly addNameRange     '2.3.4',
+172 silly addNameRange     '2.3.5',
+172 silly addNameRange     '2.3.6',
+172 silly addNameRange     '2.3.7',
+172 silly addNameRange     '2.3.8',
+172 silly addNameRange     '2.3.9',
+172 silly addNameRange     '2.3.10',
+172 silly addNameRange     '2.3.11',
+172 silly addNameRange     '2.3.12',
+172 silly addNameRange     '2.4.0',
+172 silly addNameRange     '2.4.1',
+172 silly addNameRange     '2.4.2',
+172 silly addNameRange     '2.4.3',
+172 silly addNameRange     '2.4.4',
+172 silly addNameRange     '2.4.5',
+172 silly addNameRange     '2.4.6',
+172 silly addNameRange     '2.4.7',
+172 silly addNameRange     '2.5.0',
+172 silly addNameRange     '2.5.1',
+172 silly addNameRange     '2.5.2',
+172 silly addNameRange     '2.5.3',
+172 silly addNameRange     '2.5.4',
+172 silly addNameRange     '2.5.5',
+172 silly addNameRange     '2.5.6',
+172 silly addNameRange     '2.5.7',
+172 silly addNameRange     '2.5.8',
+172 silly addNameRange     '2.5.9',
+172 silly addNameRange     '3.0.0alpha1',
+172 silly addNameRange     '3.0.0alpha2',
+172 silly addNameRange     '3.0.0alpha3',
+172 silly addNameRange     '3.0.0alpha4',
+172 silly addNameRange     '3.0.0alpha5',
+172 silly addNameRange     '3.0.0beta1',
+172 silly addNameRange     '3.0.0beta2',
+172 silly addNameRange     '3.0.0beta3',
+172 silly addNameRange     '2.5.10',
+172 silly addNameRange     '3.0.0beta4',
+172 silly addNameRange     '2.5.11',
+172 silly addNameRange     '3.0.0beta6',
+172 silly addNameRange     '3.0.0beta7',
+172 silly addNameRange     '3.0.0rc1',
+172 silly addNameRange     '3.0.0rc2',
+172 silly addNameRange     '3.0.0rc3',
+172 silly addNameRange     '3.0.0rc4',
+172 silly addNameRange     '3.0.0rc5',
+172 silly addNameRange     '3.0.0',
+172 silly addNameRange     '3.0.1',
+172 silly addNameRange     '3.0.2',
+172 silly addNameRange     '3.0.3',
+172 silly addNameRange     '3.0.4' ] ]
+173 verbose addNamed [ 'express', '3.0.4' ]
+174 verbose addNamed [ '3.0.4', '3.0.4' ]
+175 silly lockFile 1ac70620-express-3-0-4 express@3.0.4
+176 verbose lock express@3.0.4 C:\Users\wuyanfei\AppData\Roaming\npm-cache\1ac70620-express-3-0-4.lock
+177 silly lockFile 4d530da0-js-org-express-express-3-0-4-tgz https://registry.npmjs.org/express/-/express-3.0.4.tgz
+178 verbose lock https://registry.npmjs.org/express/-/express-3.0.4.tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\4d530da0-js-org-express-express-3-0-4-tgz.lock
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.4.tgz',
+179 verbose addRemoteTarball   '04a8e939145940a6bb3b215d736ec2c1584ee0a8' ]
+180 info retry fetch attempt 1 at 13:22:20
+181 verbose fetch to= C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\tmp.tgz
+182 http GET https://registry.npmjs.org/express/-/express-3.0.4.tgz
+183 http 200 https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz
+184 silly shasum updated bytes 40960
+185 silly shasum updated bytes 21334
+186 info shasum b3d0aaa1ee74d886ea4f2648021a4f8ad779ed1d
+186 info shasum C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\tmp.tgz
+187 verbose tar unpack C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\tmp.tgz
+188 silly lockFile 066ad49a-39726-0-7974130713846534-package C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package
+189 verbose lock C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\066ad49a-39726-0-7974130713846534-package.lock
+190 silly gunzTarPerm modes [ '755', '644' ]
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm extractEntry .npmignore
+193 silly gunzTarPerm extractEntry README.md
+194 silly gunzTarPerm extractEntry LICENSE
+195 silly gunzTarPerm extractEntry index.js
+196 silly gunzTarPerm extractEntry underscore-min.js
+197 silly gunzTarPerm extractEntry underscore.js
+198 silly gunzTarPerm extractEntry index.html
+199 silly gunzTarPerm extractEntry CNAME
+200 silly gunzTarPerm extractEntry favicon.ico
+201 silly gunzTarPerm extractEntry raw/underscore.psd
+202 silly gunzTarPerm extractEntry CONTRIBUTING.md
+203 verbose read json C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package\package.json
+204 silly lockFile 066ad49a-39726-0-7974130713846534-package C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package
+205 verbose from cache C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package\package.json
+206 verbose tar pack [ 'C:\\Users\\wuyanfei\\AppData\\Roaming\\npm-cache\\underscore\\1.4.3\\package.tgz',
+206 verbose tar pack   'C:\\Users\\wuyanfei\\AppData\\Local\\Temp\\npm-6576\\1354857739726-0.7974130713846534\\package' ]
+207 verbose tarball C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+208 verbose folder C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857739726-0.7974130713846534\package
+209 silly lockFile 6d944a5d-che-underscore-1-4-3-package-tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+210 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\6d944a5d-che-underscore-1-4-3-package-tgz.lock
+211 silly lockFile 6d944a5d-che-underscore-1-4-3-package-tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+212 silly lockFile 316b16e5-m-cache-underscore-1-4-3-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package
+213 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\316b16e5-m-cache-underscore-1-4-3-package.lock
+214 silly lockFile 316b16e5-m-cache-underscore-1-4-3-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package
+215 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+216 silly lockFile 316b16e5-m-cache-underscore-1-4-3-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package
+217 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\316b16e5-m-cache-underscore-1-4-3-package.lock
+218 silly gunzTarPerm modes [ '755', '644' ]
+219 silly gunzTarPerm extractEntry package.json
+220 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+221 silly gunzTarPerm extractEntry .npmignore
+222 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+223 silly gunzTarPerm extractEntry README.md
+224 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+225 silly gunzTarPerm extractEntry LICENSE
+226 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+227 silly gunzTarPerm extractEntry index.js
+228 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry underscore-min.js
+230 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+231 silly gunzTarPerm extractEntry underscore.js
+232 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry index.html
+234 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+235 silly gunzTarPerm extractEntry CNAME
+236 silly gunzTarPerm modified mode [ 'CNAME', 438, 420 ]
+237 silly gunzTarPerm extractEntry favicon.ico
+238 silly gunzTarPerm modified mode [ 'favicon.ico', 438, 420 ]
+239 silly gunzTarPerm extractEntry raw/underscore.psd
+240 silly gunzTarPerm modified mode [ 'raw/underscore.psd', 438, 420 ]
+241 silly gunzTarPerm extractEntry CONTRIBUTING.md
+242 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+243 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package\package.json
+244 silly lockFile 316b16e5-m-cache-underscore-1-4-3-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package
+245 silly shasum updated bytes 40960
+246 silly shasum updated bytes 21244
+247 info shasum 76b70f15837abb71cc1e3da74980876e16411906
+247 info shasum C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+248 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package\package.json
+249 verbose chmod C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz 644
+250 silly chown skipping for windows C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+251 silly lockFile f822db62--underscore-underscore-1-4-3-tgz https://registry.npmjs.org/underscore/-/underscore-1.4.3.tgz
+252 silly lockFile 409ff123-underscore-1-4-3 underscore@1.4.3
+253 silly lockFile ddd7fe2f-underscore-1-2-3 underscore@>= 1.2.3
+254 http 200 https://registry.npmjs.org/express/-/express-3.0.4.tgz
+255 silly shasum updated bytes 34651
+256 info shasum 04a8e939145940a6bb3b215d736ec2c1584ee0a8
+256 info shasum C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\tmp.tgz
+257 verbose tar unpack C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\tmp.tgz
+258 silly lockFile efc29bce-40835-0-5469144354574382-package C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package
+259 verbose lock C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\efc29bce-40835-0-5469144354574382-package.lock
+260 silly gunzTarPerm modes [ '755', '644' ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm extractEntry .npmignore
+263 silly gunzTarPerm extractEntry LICENSE
+264 silly gunzTarPerm extractEntry client.js
+265 silly gunzTarPerm extractEntry index.js
+266 silly gunzTarPerm extractEntry test.js
+267 silly gunzTarPerm extractEntry .travis.yml
+268 silly gunzTarPerm extractEntry History.md
+269 silly gunzTarPerm extractEntry Makefile
+270 silly gunzTarPerm extractEntry bin/express
+271 silly gunzTarPerm extractEntry Readme.md
+272 silly gunzTarPerm extractEntry lib/application.js
+273 silly gunzTarPerm extractEntry lib/express.js
+274 silly gunzTarPerm extractEntry lib/middleware.js
+275 silly gunzTarPerm extractEntry lib/request.js
+276 silly gunzTarPerm extractEntry lib/response.js
+277 silly gunzTarPerm extractEntry lib/utils.js
+278 silly gunzTarPerm extractEntry lib/view.js
+279 silly gunzTarPerm extractEntry lib/router/index.js
+280 silly gunzTarPerm extractEntry lib/router/route.js
+281 verbose read json C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package\package.json
+282 silly lockFile efc29bce-40835-0-5469144354574382-package C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package
+283 verbose from cache C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package\package.json
+284 verbose tar pack [ 'C:\\Users\\wuyanfei\\AppData\\Roaming\\npm-cache\\express\\3.0.4\\package.tgz',
+284 verbose tar pack   'C:\\Users\\wuyanfei\\AppData\\Local\\Temp\\npm-6576\\1354857740835-0.5469144354574382\\package' ]
+285 verbose tarball C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+286 verbose folder C:\Users\wuyanfei\AppData\Local\Temp\npm-6576\1354857740835-0.5469144354574382\package
+287 silly lockFile aeebdaad--cache-express-3-0-4-package-tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+288 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\aeebdaad--cache-express-3-0-4-package-tgz.lock
+289 silly lockFile aeebdaad--cache-express-3-0-4-package-tgz C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+290 silly lockFile 60d45f3b--npm-cache-express-3-0-4-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package
+291 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\60d45f3b--npm-cache-express-3-0-4-package.lock
+292 silly lockFile 60d45f3b--npm-cache-express-3-0-4-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package
+293 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+294 silly lockFile 60d45f3b--npm-cache-express-3-0-4-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package
+295 verbose lock C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package C:\Users\wuyanfei\AppData\Roaming\npm-cache\60d45f3b--npm-cache-express-3-0-4-package.lock
+296 silly gunzTarPerm modes [ '755', '644' ]
+297 silly gunzTarPerm extractEntry package.json
+298 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+299 silly gunzTarPerm extractEntry .npmignore
+300 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+301 silly gunzTarPerm extractEntry LICENSE
+302 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+303 silly gunzTarPerm extractEntry client.js
+304 silly gunzTarPerm modified mode [ 'client.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry index.js
+306 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry test.js
+308 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+309 silly gunzTarPerm extractEntry .travis.yml
+310 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+311 silly gunzTarPerm extractEntry History.md
+312 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+313 silly gunzTarPerm extractEntry Makefile
+314 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+315 silly gunzTarPerm extractEntry bin/express
+316 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+317 silly gunzTarPerm extractEntry Readme.md
+318 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+319 silly gunzTarPerm extractEntry lib/application.js
+320 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry lib/express.js
+322 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry lib/middleware.js
+324 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+325 silly gunzTarPerm extractEntry lib/request.js
+326 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+327 silly gunzTarPerm extractEntry lib/response.js
+328 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+329 silly gunzTarPerm extractEntry lib/utils.js
+330 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+331 silly gunzTarPerm extractEntry lib/view.js
+332 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+333 silly gunzTarPerm extractEntry lib/router/index.js
+334 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+335 silly gunzTarPerm extractEntry lib/router/route.js
+336 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+337 verbose read json C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package\package.json
+338 silly lockFile 60d45f3b--npm-cache-express-3-0-4-package C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package
+339 silly shasum updated bytes 34516
+340 info shasum 0d061c927a75f7413b9835e8610d481b26510f3f
+340 info shasum C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+341 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package\package.json
+342 verbose chmod C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz 644
+343 silly chown skipping for windows C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+344 silly lockFile 4d530da0-js-org-express-express-3-0-4-tgz https://registry.npmjs.org/express/-/express-3.0.4.tgz
+345 silly lockFile 1ac70620-express-3-0-4 express@3.0.4
+346 silly lockFile e6ebf83f-express-2-5-2 express@>= 2.5.2
+347 silly resolved [ { name: 'async',
+347 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+347 silly resolved     main: './index',
+347 silly resolved     author: { name: 'Caolan McMahon' },
+347 silly resolved     version: '0.1.22',
+347 silly resolved     repository: { type: 'git', url: 'http://github.com/caolan/async.git' },
+347 silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+347 silly resolved     licenses: [ [Object] ],
+347 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+347 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser.\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, forEach…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n    async.parallel([\n        function(){ ... },\n        function(){ ... }\n    ], callback);\n\n    async.series([\n        function(){ ... },\n        function(){ ... }\n    ]);\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n\n## Download\n\nReleases are available for download from\n[GitHub](http://github.com/caolan/async/downloads).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 17.5kb Uncompressed\n\n__Production:__ [async.min.js](https://github.com/caolan/async/raw/master/dist/async.min.js) - 1.7kb Packed and Gzipped\n\n\n## In the Browser\n\nSo far its been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n    <script type="text/javascript" src="async.js"></script>\n    <script type="text/javascript">\n\n        async.map(data, asyncProcess, function(err, results){\n            alert(results);\n        });\n\n    </script>\n\n\n## Documentation\n\n### Collections\n\n* [forEach](#forEach)\n* [map](#map)\n* [filter](#filter)\n* [reject](#reject)\n* [reduce](#reduce)\n* [detect](#detect)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [whilst](#whilst)\n* [until](#until)\n* [waterfall](#waterfall)\n* [queue](#queue)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n### forEach(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the forEach function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // assuming openFiles is an array of file names and saveFile is a function\n    // to save the modified contents of that file:\n\n    async.forEach(openFiles, saveFile, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n\n---------------------------------------\n\n<a name="forEachSeries" />\n### forEachSeries(arr, iterator, callback)\n\nThe same as forEach only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n### forEachLimit(arr, limit, iterator, callback)\n\nThe same as forEach only the iterator is applied to batches of items in the\narray, in series. The next batch of iterators is only called once the current\none has completed processing.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - How many items should be in each batch.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // Assume documents is an array of JSON objects and requestApi is a\n    // function that interacts with a rate-limited REST api.\n\n    async.forEachLimit(documents, 20, requestApi, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as filter, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then its probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback which accepts an optional error as its first argument, and the state\n  of the reduction as the second. If an error is passed to the callback, the\n  reduction is stopped and the main callback is immediately called with the\n  error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n    async.reduce([1,2,3], 0, function(memo, item, callback){\n        // pointless async:\n        process.nextTick(function(){\n            callback(null, memo + item)\n        });\n    }, function(err, result){\n        // result is now equal to the last value of memo, which is 6\n    });\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n    async.detect([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // result now equals the first file in the list that exists\n    });\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a value to use as the sort criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n    async.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n        fs.stat(file, function(err, stats){\n            callback(err, stats.mtime);\n        });\n    }, function(err, results){\n        // results is now the original array of files sorted by\n        // modified date\n    });\n\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n    async.some([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then at least one of the files exists\n    });\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n    async.every([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then every file exists\n    });\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n    async.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n        // files is now a list of filenames that exist in the 3 directories\n    });\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.series([\n        function(callback){\n            // do some stuff ...\n            callback(null, \'one\');\n        },\n        function(callback){\n            // do some more stuff ...\n            callback(null, \'two\');\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // results is now equal to [\'one\', \'two\']\n    });\n\n\n    // an example using an object instead of an array\n    async.series({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equal to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed a\n  callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.parallel([\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'one\');\n            }, 200);\n        },\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'two\');\n            }, 100);\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // the results array will equal [\'one\',\'two\'] even though\n        // the second function had a shorter timeout.\n    });\n\n\n    // an example using an object instead of an array\n    async.parallel({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equals to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback which must be called once it has completed with an optional\n  error as the first argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n    var count = 0;\n\n    async.whilst(\n        function () { return count < 5; },\n        function (callback) {\n            count++;\n            setTimeout(callback, 1000);\n        },\n        function (err) {\n            // 5 seconds have passed\n        }\n    );\n\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n    async.waterfall([\n        function(callback){\n            callback(null, \'one\', \'two\');\n        },\n        function(arg1, arg2, callback){\n            callback(null, \'three\');\n        },\n        function(arg1, callback){\n            // arg1 now equals \'three\'\n            callback(null, \'done\');\n        }\n    ], function (err, result) {\n       // result now equals \'done\'    \n    });\n\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n    // create a queue object with concurrency 2\n\n    var q = async.queue(function (task, callback) {\n        console.log(\'hello \' + task.name);\n        callback();\n    }, 2);\n\n\n    // assign a callback\n    q.drain = function() {\n        console.log(\'all items have been processed\');\n    }\n\n    // add some items to the queue\n\n    q.push({name: \'foo\'}, function (err) {\n        console.log(\'finished processing foo\');\n    });\n    q.push({name: \'bar\'}, function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n    // add some items to the queue (batch-wise)\n\n    q.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The\n  syntax is easier to understand by looking at the example.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. If all tasks complete\n  successfully, it will receive an object containing their results.\n\n__Example__\n\n    async.auto({\n        get_data: function(callback){\n            // async code to get some data\n        },\n        make_folder: function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        },\n        write_file: [\'get_data\', \'make_folder\', function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n            callback(null, filename);\n        }],\n        email_link: [\'write_file\', function(callback, results){\n            // once the file is written let\'s email a link to it...\n            // results.write_file contains the filename returned by write_file.\n        }]\n    });\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n    async.parallel([\n        function(callback){\n            // async code to get some data\n        },\n        function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        }\n    ],\n    function(results){\n        async.series([\n            function(callback){\n                // once there is some data and the directory exists,\n                // write the data to a file in the directory\n            },\n            email_link: function(callback){\n                // once the file is written let\'s email a link to it...\n            }\n        ]);\n    });\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. Its also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n\n__Example__\n\n    var iterator = async.iterator([\n        function(){ sys.p(\'one\'); },\n        function(){ sys.p(\'two\'); },\n        function(){ sys.p(\'three\'); }\n    ]);\n\n    node> var iterator2 = iterator();\n    \'one\'\n    node> var iterator3 = iterator2();\n    \'two\'\n    node> iterator3();\n    \'three\'\n    node> var nextfn = iterator2.next();\n    node> nextfn();\n    \'three\'\n\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n    // using apply\n\n    async.parallel([\n        async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n        async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n    ]);\n\n\n    // the same process without using apply\n\n    async.parallel([\n        function(callback){\n            fs.writeFile(\'testfile1\', \'test1\', callback);\n        },\n        function(callback){\n            fs.writeFile(\'testfile2\', \'test2\', callback);\n        },\n    ]);\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n    node> var fn = async.apply(sys.puts, \'one\');\n    node> fn(\'two\', \'three\');\n    one\n    two\n    three\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setTimeout(callback, 0),\nwhich means other higher priority events may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n    var call_order = [];\n    async.nextTick(function(){\n        call_order.push(\'two\');\n        // call_order now equals [\'one\',\'two]\n    });\n    call_order.push(\'one\')\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n    var slow_fn = function (name, callback) {\n        // do something\n        callback(null, result);\n    };\n    var fn = async.memoize(slow_fn);\n\n    // fn can now be used as if it were slow_fn\n    fn(\'some name\', function () {\n        // callback\n    });\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, \'hello \' + name);\n        }, 1000);\n    };\n\n    node> async.log(hello, \'world\');\n    \'hello world\'\n\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, {hello: name});\n        }, 1000);\n    };\n\n    node> async.dir(hello, \'world\');\n    {hello: \'world\'}\n\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+347 silly resolved     _id: 'async@0.1.22',
+347 silly resolved     _from: 'async@>= 0.1.18' },
+347 silly resolved   { name: 'hiredis',
+347 silly resolved     description: 'Wrapper for reply processing code in hiredis',
+347 silly resolved     version: '0.1.14',
+347 silly resolved     homepage: 'http://github.com/pietern/hiredis-node',
+347 silly resolved     author: { name: 'Pieter Noordhuis', email: 'pcnoordhuis@gmail.com' },
+347 silly resolved     main: 'hiredis',
+347 silly resolved     directories: { lib: '.' },
+347 silly resolved     scripts: { preinstall: 'make || gmake', test: 'node test/reader.js' },
+347 silly resolved     engines: { node: '*' },
+347 silly resolved     readme: 'ERROR: No README.md file found!',
+347 silly resolved     _id: 'hiredis@0.1.14',
+347 silly resolved     _from: 'hiredis@>=0.1.14' },
+347 silly resolved   { name: 'request',
+347 silly resolved     description: 'Simplified HTTP request client.',
+347 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+347 silly resolved     version: '2.12.0',
+347 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+347 silly resolved     repository: { type: 'git', url: 'http://github.com/mikeal/request.git' },
+347 silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+347 silly resolved     engines: [ 'node >= 0.3.6' ],
+347 silly resolved     main: './main',
+347 silly resolved     dependencies: { 'form-data': '~0.0.3', mime: '~1.2.7' },
+347 silly resolved     bundleDependencies: [ 'form-data', 'mime' ],
+347 silly resolved     scripts: { test: 'node tests/run.js' },
+347 silly resolved     readme: '# Request -- Simplified HTTP request method\n\n## Install\n\n<pre>\n  npm install request\n</pre>\n\nOr from source:\n\n<pre>\n  git clone git://github.com/mikeal/request.git \n  cd request\n  npm link\n</pre>\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```javascript\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Print the google web page.\n  }\n})\n```\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```javascript\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types, in this case `application/json`, and use the proper content-type in the PUT request if one is not already provided in the headers.\n\n```javascript\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also pipe to itself. When doing so the content-type and content-length will be preserved in the PUT headers.\n\n```javascript\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nNow let\'s get fancy.\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    } \n  }\n})\n```\n\nYou can also pipe() from a http.ServerRequest instance and to a http.ServerResponse instance. The HTTP method and headers will be sent as well as the entity-body data. Which means that, if you don\'t really care about security, you can do:\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since pipe() returns the destination stream in node 0.5.x you can do one line proxying :)\n\n```javascript\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```javascript\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\nUrl encoded forms are simple\n\n```javascript\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n```\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). You don\'t need to worry about piping the form object or setting the headers, `request` will handle that for you.\n\n```javascript\nvar r = request.post(\'http://service.com/upload\')\nvar form = r.form()\nform.append(\'my_field\', \'my_value\')\nform.append(\'my_buffer\', new Buffer([1, 2, 3]))\nform.append(\'my_file\', fs.createReadStream(path.join(__dirname, \'doodle.png\'))\nform.append(\'remote_file\', request(\'http://google.com/doodle.png\'))\n```\n\n## OAuth Signing\n\n```javascript\n// Twitter OAuth\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Assume by some stretch of magic you aquired the verifier\n  var access_token = qs.parse(body)\n    , oauth = \n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: access_token.oauth_token\n      , verifier: VERIFIER\n      , token_secret: access_token.oauth_token_secret\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    var perm_token = qs.parse(body)\n      , oauth = \n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_token.oauth_token\n        , token_secret: perm_token.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1/users/show.json?\'\n      , params = \n        { screen_name: perm_token.screen_name\n        , user_id: perm_token.user_id\n        }\n      ;\n    url += qs.stringify(params)\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\n\n\n### request(options, callback)\n\nThe first argument can be either a url or an options object. The only required option is uri, all others are optional.\n\n* `uri` || `url` - fully qualified uri or a parsed url object from url.parse()\n* `qs` - object containing querystring values to be appended to the uri\n* `method` - http method, defaults to GET\n* `headers` - http headers, defaults to {}\n* `body` - entity body for POST and PUT requests. Must be buffer or string.\n* `form` - when passed an object this will set `body` but to a querystring representation of value and adds `Content-type: application/x-www-form-urlencoded; charset=utf-8` header. When passed no option a FormData instance is returned that will be piped to request.\n* `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as json.\n* `multipart` - (experimental) array of objects which contains their own headers and `body` attribute. Sends `multipart/related` request. See example below.\n* `followRedirect` - follow HTTP 3xx responses as redirects. defaults to true.\n* `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects. defaults to false.\n* `maxRedirects` - the maximum number of redirects to follow, defaults to 10.\n* `encoding` - Encoding to be used on `setEncoding` of response data. If set to `null`, the body is returned as a Buffer.\n* `pool` - A hash object containing the agents for these requests. If omitted this request will use the global pool which is set to node\'s default maxSockets.\n* `pool.maxSockets` - Integer containing the maximum amount of sockets in the pool.\n* `timeout` - Integer containing the number of milliseconds to wait for a request to respond before aborting the request\t\n* `proxy` - An HTTP proxy to be used. Support proxy Auth with Basic Auth the same way it\'s supported with the `url` parameter by embedding the auth info in the uri.\n* `oauth` - Options for OAuth HMAC-SHA1 signing, see documentation above.\n* `strictSSL` - Set to `true` to require that SSL certificates be valid. Note: to use your own certificate authority, you need to specify an agent that was created with that ca as an option.\n* `jar` - Set to `false` if you don\'t want cookies to be remembered for future use or define your custom cookie jar (see examples section)\n* `aws` - object containing aws signing information, should have the properties `key` and `secret` as well as `bucket` unless you\'re specifying your bucket as part of the path, or you are making a request that doesn\'t use a bucket (i.e. GET Services)\n\n\nThe callback argument gets 3 arguments. The first is an error when applicable (usually from the http.Client option not the http.ClientRequest object). The second in an http.ClientResponse object. The third is the response body String or Buffer.\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n### request.defaults(options)  \n  \nThis method returns a wrapper around the normal request API that defaults to whatever options you pass in to it.\n\n### request.put\n\nSame as request() but defaults to `method: "PUT"`.\n\n```javascript\nrequest.put(url)\n```\n\n### request.post\n\nSame as request() but defaults to `method: "POST"`.\n\n```javascript\nrequest.post(url)\n```\n\n### request.head\n\nSame as request() but defaults to `method: "HEAD"`.\n\n```javascript\nrequest.head(url)\n```\n\n### request.del\n\nSame as request() but defaults to `method: "DELETE"`.\n\n```javascript\nrequest.del(url)\n```\n\n### request.get\n\nAlias to normal request method for uniformity.\n\n```javascript\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```javascript\nrequest.cookie(\'cookie_string_here\')\n```\n### request.jar\n\nFunction that creates a new cookie jar.\n\n```javascript\nrequest.jar()\n```\n\n\n## Examples:\n\n```javascript\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart: \n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ] \n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\nCookies are enabled by default (so they can be used in subsequent requests). To disable cookies set jar to false (either in defaults or in the options sent).\n\n```javascript\nvar request = request.defaults({jar: false})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nIf you to use a custom cookie jar (instead of letting request use its own global cookie jar) you do so by setting the jar default or by specifying it as an option:\n\n```javascript\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\nOR\n\n```javascript\nvar j = request.jar()\nvar cookie = request.cookie(\'your_cookie_here\')\nj.add(cookie)\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n',
+347 silly resolved     _id: 'request@2.12.0',
+347 silly resolved     _from: 'request@>= 2.2.0' },
+347 silly resolved   { name: 'redis',
+347 silly resolved     version: '0.8.2',
+347 silly resolved     description: 'Redis client library',
+347 silly resolved     keywords: [ 'redis', 'database' ],
+347 silly resolved     author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+347 silly resolved     main: './index.js',
+347 silly resolved     scripts: { test: 'node ./test.js' },
+347 silly resolved     devDependencies: { metrics: '>=0.1.5' },
+347 silly resolved     repository: { type: 'git', url: 'git://github.com/mranney/node_redis.git' },
+347 silly resolved     readme: 'redis - a node.js redis client\n===========================\n\nThis is a complete Redis client for node.js.  It supports all Redis commands, including many recently added commands like EVAL from\nexperimental Redis server branches.\n\n\nInstall with:\n\n    npm install redis\n\nPieter Noordhuis has provided a binding to the official `hiredis` C library, which is non-blocking and fast.  To use `hiredis`, do:\n\n    npm install hiredis redis\n\nIf `hiredis` is installed, `node_redis` will use it by default.  Otherwise, a pure JavaScript parser will be used.\n\nIf you use `hiredis`, be sure to rebuild it whenever you upgrade your version of node.  There are mysterious failures that can\nhappen between node and native code modules after a node upgrade.\n\n\n## Usage\n\nSimple example, included as `examples/simple.js`:\n\n```js\n    var redis = require("redis"),\n        client = redis.createClient();\n\n    // if you\'d like to select database 3, instead of 0 (default), call\n    // client.select(3, function() { /* ... */ });\n\n    client.on("error", function (err) {\n        console.log("Error " + err);\n    });\n\n    client.set("string key", "string val", redis.print);\n    client.hset("hash key", "hashtest 1", "some value", redis.print);\n    client.hset(["hash key", "hashtest 2", "some other value"], redis.print);\n    client.hkeys("hash key", function (err, replies) {\n        console.log(replies.length + " replies:");\n        replies.forEach(function (reply, i) {\n            console.log("    " + i + ": " + reply);\n        });\n        client.quit();\n    });\n```\n\nThis will display:\n\n    mjr:~/work/node_redis (master)$ node example.js\n    Reply: OK\n    Reply: 0\n    Reply: 0\n    2 replies:\n        0: hashtest 1\n        1: hashtest 2\n    mjr:~/work/node_redis (master)$\n\n\n## Performance\n\nHere are typical results of `multi_bench.js` which is similar to `redis-benchmark` from the Redis distribution.\nIt uses 50 concurrent connections with no pipelining.\n\nJavaScript parser:\n\n    PING: 20000 ops 42283.30 ops/sec 0/5/1.182\n    SET: 20000 ops 32948.93 ops/sec 1/7/1.515\n    GET: 20000 ops 28694.40 ops/sec 0/9/1.740\n    INCR: 20000 ops 39370.08 ops/sec 0/8/1.269\n    LPUSH: 20000 ops 36429.87 ops/sec 0/8/1.370\n    LRANGE (10 elements): 20000 ops 9891.20 ops/sec 1/9/5.048\n    LRANGE (100 elements): 20000 ops 1384.56 ops/sec 10/91/36.072\n\nhiredis parser:\n\n    PING: 20000 ops 46189.38 ops/sec 1/4/1.082\n    SET: 20000 ops 41237.11 ops/sec 0/6/1.210\n    GET: 20000 ops 39682.54 ops/sec 1/7/1.257\n    INCR: 20000 ops 40080.16 ops/sec 0/8/1.242\n    LPUSH: 20000 ops 41152.26 ops/sec 0/3/1.212\n    LRANGE (10 elements): 20000 ops 36563.07 ops/sec 1/8/1.363\n    LRANGE (100 elements): 20000 ops 21834.06 ops/sec 0/9/2.287\n\nThe performance of `node_redis` improves dramatically with pipelining, which happens automatically in most normal programs.\n\n\n### Sending Commands\n\nEach Redis command is exposed as a function on the `client` object.\nAll functions take either an `args` Array plus optional `callback` Function or\na variable number of individual arguments followed by an optional callback.\nHere is an example of passing an array of arguments and a callback:\n\n    client.mset(["test keys 1", "test val 1", "test keys 2", "test val 2"], function (err, res) {});\n\nHere is that same call in the second style:\n\n    client.mset("test keys 1", "test val 1", "test keys 2", "test val 2", function (err, res) {});\n\nNote that in either form the `callback` is optional:\n\n    client.set("some key", "some val");\n    client.set(["some other key", "some val"]);\n\nIf the key is missing, reply will be null (probably):\n\n    client.get("missingkey", function(err, reply) {\n        // reply is null when the key is missing\n        console.log(reply);\n    });\n\nFor a list of Redis commands, see [Redis Command Reference](http://redis.io/commands)\n\nThe commands can be specified in uppercase or lowercase for convenience.  `client.get()` is the same as `client.GET()`.\n\nMinimal parsing is done on the replies.  Commands that return a single line reply return JavaScript Strings,\ninteger replies return JavaScript Numbers, "bulk" replies return node Buffers, and "multi bulk" replies return a\nJavaScript Array of node Buffers.  `HGETALL` returns an Object with Buffers keyed by the hash keys.\n\n# API\n\n## Connection Events\n\n`client` will emit some events about the state of the connection to the Redis server.\n\n### "ready"\n\n`client` will emit `ready` a connection is established to the Redis server and the server reports\nthat it is ready to receive commands.  Commands issued before the `ready` event are queued,\nthen replayed just before this event is emitted.\n\n### "connect"\n\n`client` will emit `connect` at the same time as it emits `ready` unless `client.options.no_ready_check`\nis set.  If this options is set, `connect` will be emitted when the stream is connected, and then\nyou are free to try to send commands.\n\n### "error"\n\n`client` will emit `error` when encountering an error connecting to the Redis server.\n\nNote that "error" is a special event type in node.  If there are no listeners for an\n"error" event, node will exit.  This is usually what you want, but it can lead to some\ncryptic error messages like this:\n\n    mjr:~/work/node_redis (master)$ node example.js\n\n    node.js:50\n        throw e;\n        ^\n    Error: ECONNREFUSED, Connection refused\n        at IOWatcher.callback (net:870:22)\n        at node.js:607:9\n\nNot very useful in diagnosing the problem, but if your program isn\'t ready to handle this,\nit is probably the right thing to just exit.\n\n`client` will also emit `error` if an exception is thrown inside of `node_redis` for whatever reason.\nIt would be nice to distinguish these two cases.\n\n### "end"\n\n`client` will emit `end` when an established Redis server connection has closed.\n\n### "drain"\n\n`client` will emit `drain` when the TCP connection to the Redis server has been buffering, but is now\nwritable.  This event can be used to stream commands in to Redis and adapt to backpressure.  Right now,\nyou need to check `client.command_queue.length` to decide when to reduce your send rate.  Then you can\nresume sending when you get `drain`.\n\n### "idle"\n\n`client` will emit `idle` when there are no outstanding commands that are awaiting a response.\n\n## redis.createClient(port, host, options)\n\nCreate a new client connection.  `port` defaults to `6379` and `host` defaults\nto `127.0.0.1`.  If you have `redis-server` running on the same computer as node, then the defaults for\nport and host are probably fine.  `options` in an object with the following possible properties:\n\n* `parser`: which Redis protocol reply parser to use.  Defaults to `hiredis` if that module is installed.\nThis may also be set to `javascript`.\n* `return_buffers`: defaults to `false`.  If set to `true`, then all replies will be sent to callbacks as node Buffer\nobjects instead of JavaScript Strings.\n* `detect_buffers`: default to `false`. If set to `true`, then replies will be sent to callbacks as node Buffer objects\nif any of the input arguments to the original command were Buffer objects.\nThis option lets you switch between Buffers and Strings on a per-command basis, whereas `return_buffers` applies to\nevery command on a client.\n* `socket_nodelay`: defaults to `true`. Whether to call setNoDelay() on the TCP stream, which disables the\nNagle algorithm on the underlying socket.  Setting this option to `false` can result in additional throughput at the\ncost of more latency.  Most applications will want this set to `true`.\n* `no_ready_check`: defaults to `false`. When a connection is established to the Redis server, the server might still\nbe loading the database from disk.  While loading, the server not respond to any commands.  To work around this,\n`node_redis` has a "ready check" which sends the `INFO` command to the server.  The response from the `INFO` command\nindicates whether the server is ready for more commands.  When ready, `node_redis` emits a `ready` event.\nSetting `no_ready_check` to `true` will inhibit this check.\n* `enable_offline_queue`: defaults to `true`. By default, if there is no active\nconnection to the redis server, commands are added to a queue and are executed\nonce the connection has been established. Setting `enable_offline_queue` to\n`false` will disable this feature and the callback will be execute immediately\nwith an error, or an error will be thrown if no callback is specified.\n\n```js\n    var redis = require("redis"),\n        client = redis.createClient(null, null, {detect_buffers: true});\n\n    client.set("foo_rand000000000000", "OK");\n\n    // This will return a JavaScript String\n    client.get("foo_rand000000000000", function (err, reply) {\n        console.log(reply.toString()); // Will print `OK`\n    });\n\n    // This will return a Buffer since original key is specified as a Buffer\n    client.get(new Buffer("foo_rand000000000000"), function (err, reply) {\n        console.log(reply.toString()); // Will print `<Buffer 4f 4b>`\n    });\n    client.end();\n```\n\n`createClient()` returns a `RedisClient` object that is named `client` in all of the examples here.\n\n## client.auth(password, callback)\n\nWhen connecting to Redis servers that require authentication, the `AUTH` command must be sent as the\nfirst command after connecting.  This can be tricky to coordinate with reconnections, the ready check,\netc.  To make this easier, `client.auth()` stashes `password` and will send it after each connection,\nincluding reconnections.  `callback` is invoked only once, after the response to the very first\n`AUTH` command sent.\nNOTE: Your call to `client.auth()` should not be inside the ready handler. If\nyou are doing this wrong, `client` will emit an error that looks\nsomething like this `Error: Ready check failed: ERR operation not permitted`.\n\n## client.end()\n\nForcibly close the connection to the Redis server.  Note that this does not wait until all replies have been parsed.\nIf you want to exit cleanly, call `client.quit()` to send the `QUIT` command after you have handled all replies.\n\nThis example closes the connection to the Redis server before the replies have been read.  You probably don\'t\nwant to do this:\n\n```js\n    var redis = require("redis"),\n        client = redis.createClient();\n\n    client.set("foo_rand000000000000", "some fantastic value");\n    client.get("foo_rand000000000000", function (err, reply) {\n        console.log(reply.toString());\n    });\n    client.end();\n```\n\n`client.end()` is useful for timeout cases where something is stuck or taking too long and you want\nto start over.\n\n## Friendlier hash commands\n\nMost Redis commands take a single String or an Array of Strings as arguments, and replies are sent back as a single String or an Array of Strings.\nWhen dealing with hash values, there are a couple of useful exceptions to this.\n\n### client.hgetall(hash)\n\nThe reply from an HGETALL command will be converted into a JavaScript Object by `node_redis`.  That way you can interact\nwith the responses using JavaScript syntax.\n\nExample:\n\n    client.hmset("hosts", "mjr", "1", "another", "23", "home", "1234");\n    client.hgetall("hosts", function (err, obj) {\n        console.dir(obj);\n    });\n\nOutput:\n\n    { mjr: \'1\', another: \'23\', home: \'1234\' }\n\n### client.hmset(hash, obj, [callback])\n\nMultiple values in a hash can be set by supplying an object:\n\n    client.HMSET(key2, {\n        "0123456789": "abcdefghij", // NOTE: the key and value must both be strings\n        "some manner of key": "a type of value"\n    });\n\nThe properties and values of this Object will be set as keys and values in the Redis hash.\n\n### client.hmset(hash, key1, val1, ... keyn, valn, [callback])\n\nMultiple values may also be set by supplying a list:\n\n    client.HMSET(key1, "0123456789", "abcdefghij", "some manner of key", "a type of value");\n\n\n## Publish / Subscribe\n\nHere is a simple example of the API for publish / subscribe.  This program opens two\nclient connections, subscribes to a channel on one of them, and publishes to that\nchannel on the other:\n\n```js\n    var redis = require("redis"),\n        client1 = redis.createClient(), client2 = redis.createClient(),\n        msg_count = 0;\n\n    client1.on("subscribe", function (channel, count) {\n        client2.publish("a nice channel", "I am sending a message.");\n        client2.publish("a nice channel", "I am sending a second message.");\n        client2.publish("a nice channel", "I am sending my last message.");\n    });\n\n    client1.on("message", function (channel, message) {\n        console.log("client1 channel " + channel + ": " + message);\n        msg_count += 1;\n        if (msg_count === 3) {\n            client1.unsubscribe();\n            client1.end();\n            client2.end();\n        }\n    });\n\n    client1.incr("did a thing");\n    client1.subscribe("a nice channel");\n```\n\nWhen a client issues a `SUBSCRIBE` or `PSUBSCRIBE`, that connection is put into "pub/sub" mode.\nAt that point, only commands that modify the subscription set are valid.  When the subscription\nset is empty, the connection is put back into regular mode.\n\nIf you need to send regular commands to Redis while in pub/sub mode, just open another connection.\n\n## Pub / Sub Events\n\nIf a client has subscriptions active, it may emit these events:\n\n### "message" (channel, message)\n\nClient will emit `message` for every message received that matches an active subscription.\nListeners are passed the channel name as `channel` and the message Buffer as `message`.\n\n### "pmessage" (pattern, channel, message)\n\nClient will emit `pmessage` for every message received that matches an active subscription pattern.\nListeners are passed the original pattern used with `PSUBSCRIBE` as `pattern`, the sending channel\nname as `channel`, and the message Buffer as `message`.\n\n### "subscribe" (channel, count)\n\nClient will emit `subscribe` in response to a `SUBSCRIBE` command.  Listeners are passed the\nchannel name as `channel` and the new count of subscriptions for this client as `count`.\n\n### "psubscribe" (pattern, count)\n\nClient will emit `psubscribe` in response to a `PSUBSCRIBE` command.  Listeners are passed the\noriginal pattern as `pattern`, and the new count of subscriptions for this client as `count`.\n\n### "unsubscribe" (channel, count)\n\nClient will emit `unsubscribe` in response to a `UNSUBSCRIBE` command.  Listeners are passed the\nchannel name as `channel` and the new count of subscriptions for this client as `count`.  When\n`count` is 0, this client has left pub/sub mode and no more pub/sub events will be emitted.\n\n### "punsubscribe" (pattern, count)\n\nClient will emit `punsubscribe` in response to a `PUNSUBSCRIBE` command.  Listeners are passed the\nchannel name as `channel` and the new count of subscriptions for this client as `count`.  When\n`count` is 0, this client has left pub/sub mode and no more pub/sub events will be emitted.\n\n## client.multi([commands])\n\n`MULTI` commands are queued up until an `EXEC` is issued, and then all commands are run atomically by\nRedis.  The interface in `node_redis` is to return an individual `Multi` object by calling `client.multi()`.\n\n```js\n    var redis  = require("./index"),\n        client = redis.createClient(), set_size = 20;\n\n    client.sadd("bigset", "a member");\n    client.sadd("bigset", "another member");\n\n    while (set_size > 0) {\n        client.sadd("bigset", "member " + set_size);\n        set_size -= 1;\n    }\n\n    // multi chain with an individual callback\n    client.multi()\n        .scard("bigset")\n        .smembers("bigset")\n        .keys("*", function (err, replies) {\n            // NOTE: code in this callback is NOT atomic\n            // this only happens after the the .exec call finishes.\n            client.mget(replies, redis.print);\n        })\n        .dbsize()\n        .exec(function (err, replies) {\n            console.log("MULTI got " + replies.length + " replies");\n            replies.forEach(function (reply, index) {\n                console.log("Reply " + index + ": " + reply.toString());\n            });\n        });\n```\n\n`client.multi()` is a constructor that returns a `Multi` object.  `Multi` objects share all of the\nsame command methods as `client` objects do.  Commands are queued up inside the `Multi` object\nuntil `Multi.exec()` is invoked.\n\nYou can either chain together `MULTI` commands as in the above example, or you can queue individual\ncommands while still sending regular client command as in this example:\n\n```js\n    var redis  = require("redis"),\n        client = redis.createClient(), multi;\n\n    // start a separate multi command queue\n    multi = client.multi();\n    multi.incr("incr thing", redis.print);\n    multi.incr("incr other thing", redis.print);\n\n    // runs immediately\n    client.mset("incr thing", 100, "incr other thing", 1, redis.print);\n\n    // drains multi queue and runs atomically\n    multi.exec(function (err, replies) {\n        console.log(replies); // 101, 2\n    });\n\n    // you can re-run the same transaction if you like\n    multi.exec(function (err, replies) {\n        console.log(replies); // 102, 3\n        client.quit();\n    });\n```\n\nIn addition to adding commands to the `MULTI` queue individually, you can also pass an array\nof commands and arguments to the constructor:\n\n```js\n    var redis  = require("redis"),\n        client = redis.createClient(), multi;\n\n    client.multi([\n        ["mget", "multifoo", "multibar", redis.print],\n        ["incr", "multifoo"],\n        ["incr", "multibar"]\n    ]).exec(function (err, replies) {\n        console.log(replies);\n    });\n```\n\n\n## Monitor mode\n\nRedis supports the `MONITOR` command, which lets you see all commands received by the Redis server\nacross all client connections, including from other client libraries and other computers.\n\nAfter you send the `MONITOR` command, no other commands are valid on that connection.  `node_redis`\nwill emit a `monitor` event for every new monitor message that comes across.  The callback for the\n`monitor` event takes a timestamp from the Redis server and an array of command arguments.\n\nHere is a simple example:\n\n```js\n    var client  = require("redis").createClient(),\n        util = require("util");\n\n    client.monitor(function (err, res) {\n        console.log("Entering monitoring mode.");\n    });\n\n    client.on("monitor", function (time, args) {\n        console.log(time + ": " + util.inspect(args));\n    });\n```\n\n# Extras\n\nSome other things you might like to know about.\n\n## client.server_info\n\nAfter the ready probe completes, the results from the INFO command are saved in the `client.server_info`\nobject.\n\nThe `versions` key contains an array of the elements of the version string for easy comparison.\n\n    > client.server_info.redis_version\n    \'2.3.0\'\n    > client.server_info.versions\n    [ 2, 3, 0 ]\n\n## redis.print()\n\nA handy callback function for displaying return values when testing.  Example:\n\n```js\n    var redis = require("redis"),\n        client = redis.createClient();\n\n    client.on("connect", function () {\n        client.set("foo_rand000000000000", "some fantastic value", redis.print);\n        client.get("foo_rand000000000000", redis.print);\n    });\n```\n\nThis will print:\n\n    Reply: OK\n    Reply: some fantastic value\n\nNote that this program will not exit cleanly because the client is still connected.\n\n## redis.debug_mode\n\nBoolean to enable debug mode and protocol tracing.\n\n```js\n    var redis = require("redis"),\n        client = redis.createClient();\n\n    redis.debug_mode = true;\n\n    client.on("connect", function () {\n        client.set("foo_rand000000000000", "some fantastic value");\n    });\n```\n\nThis will display:\n\n    mjr:~/work/node_redis (master)$ node ~/example.js\n    send command: *3\n    $3\n    SET\n    $20\n    foo_rand000000000000\n    $20\n    some fantastic value\n\n    on_data: +OK\n\n`send command` is data sent into Redis and `on_data` is data received from Redis.\n\n## client.send_command(command_name, args, callback)\n\nUsed internally to send commands to Redis.  For convenience, nearly all commands that are published on the Redis\nWiki have been added to the `client` object.  However, if I missed any, or if new commands are introduced before\nthis library is updated, you can use `send_command()` to send arbitrary commands to Redis.\n\nAll commands are sent as multi-bulk commands.  `args` can either be an Array of arguments, or omitted.\n\n## client.connected\n\nBoolean tracking the state of the connection to the Redis server.\n\n## client.command_queue.length\n\nThe number of commands that have been sent to the Redis server but not yet replied to.  You can use this to\nenforce some kind of maximum queue depth for commands while connected.\n\nDon\'t mess with `client.command_queue` though unless you really know what you are doing.\n\n## client.offline_queue.length\n\nThe number of commands that have been queued up for a future connection.  You can use this to enforce\nsome kind of maximum queue depth for pre-connection commands.\n\n## client.retry_delay\n\nCurrent delay in milliseconds before a connection retry will be attempted.  This starts at `250`.\n\n## client.retry_backoff\n\nMultiplier for future retry timeouts.  This should be larger than 1 to add more time between retries.\nDefaults to 1.7.  The default initial connection retry is 250, so the second retry will be 425, followed by 723.5, etc.\n\n### Commands with Optional and Keyword arguments\n\nThis applies to anything that uses an optional `[WITHSCORES]` or `[LIMIT offset count]` in the [redis.io/commands](http://redis.io/commands) documentation.\n\nExample:\n```js\nvar args = [ \'myzset\', 1, \'one\', 2, \'two\', 3, \'three\', 99, \'ninety-nine\' ];\nclient.zadd(args, function (err, response) {\n    if (err) throw err;\n    console.log(\'added \'+response+\' items.\');\n\n    // -Infinity and +Infinity also work\n    var args1 = [ \'myzset\', \'+inf\', \'-inf\' ];\n    client.zrevrangebyscore(args1, function (err, response) {\n        if (err) throw err;\n        console.log(\'example1\', response);\n        // write your code here\n    });\n\n    var max = 3, min = 1, offset = 1, count = 2;\n    var args2 = [ \'myzset\', max, min, \'WITHSCORES\', \'LIMIT\', offset, count ];\n    client.zrevrangebyscore(args2, function (err, response) {\n        if (err) throw err;\n        console.log(\'example2\', response);\n        // write your code here\n    });\n});\n```\n\n## TODO\n\nBetter tests for auth, disconnect/reconnect, and all combinations thereof.\n\nStream large set/get values into and out of Redis.  Otherwise the entire value must be in node\'s memory.\n\nPerformance can be better for very large values.\n\nI think there are more performance improvements left in there for smaller values, especially for large lists of small values.\n\n## How to Contribute\n- open a pull request and then wait for feedback (if\n  [DTrejo](http://github.com/dtrejo) does not get back to you within 2 days,\n  comment again with indignation!)\n\n## Contributors\nSome people have have added features and fixed bugs in `node_redis` other than me.\n\nOrdered by date of first contribution.\n[Auto-generated](http://github.com/dtrejo/node-authors) on Wed Jul 25 2012 19:14:59 GMT-0700 (PDT).\n\n- [Matt Ranney aka `mranney`](https://github.com/mranney)\n- [Tim-Smart aka `tim-smart`](https://github.com/tim-smart)\n- [Tj Holowaychuk aka `visionmedia`](https://github.com/visionmedia)\n- [rick aka `technoweenie`](https://github.com/technoweenie)\n- [Orion Henry aka `orionz`](https://github.com/orionz)\n- [Aivo Paas aka `aivopaas`](https://github.com/aivopaas)\n- [Hank Sims aka `hanksims`](https://github.com/hanksims)\n- [Paul Carey aka `paulcarey`](https://github.com/paulcarey)\n- [Pieter Noordhuis aka `pietern`](https://github.com/pietern)\n- [nithesh aka `nithesh`](https://github.com/nithesh)\n- [Andy Ray aka `andy2ray`](https://github.com/andy2ray)\n- [unknown aka `unknowdna`](https://github.com/unknowdna)\n- [Dave Hoover aka `redsquirrel`](https://github.com/redsquirrel)\n- [Vladimir Dronnikov aka `dvv`](https://github.com/dvv)\n- [Umair Siddique aka `umairsiddique`](https://github.com/umairsiddique)\n- [Louis-Philippe Perron aka `lp`](https://github.com/lp)\n- [Mark Dawson aka `markdaws`](https://github.com/markdaws)\n- [Ian Babrou aka `bobrik`](https://github.com/bobrik)\n- [Felix Geisendörfer aka `felixge`](https://github.com/felixge)\n- [Jean-Hugues Pinson aka `undefined`](https://github.com/undefined)\n- [Maksim Lin aka `maks`](https://github.com/maks)\n- [Owen Smith aka `orls`](https://github.com/orls)\n- [Zachary Scott aka `zzak`](https://github.com/zzak)\n- [TEHEK Firefox aka `TEHEK`](https://github.com/TEHEK)\n- [Isaac Z. Schlueter aka `isaacs`](https://github.com/isaacs)\n- [David Trejo aka `DTrejo`](https://github.com/DTrejo)\n- [Brian Noguchi aka `bnoguchi`](https://github.com/bnoguchi)\n- [Philip Tellis aka `bluesmoon`](https://github.com/bluesmoon)\n- [Marcus Westin aka `marcuswestin2`](https://github.com/marcuswestin2)\n- [Jed Schmidt aka `jed`](https://github.com/jed)\n- [Dave Peticolas aka `jdavisp3`](https://github.com/jdavisp3)\n- [Trae Robrock aka `trobrock`](https://github.com/trobrock)\n- [Shankar Karuppiah aka `shankar0306`](https://github.com/shankar0306)\n- [Ignacio Burgueño aka `ignacio`](https://github.com/ignacio)\n\nThanks.\n\n## LICENSE - "MIT License"\n\nCopyright (c) 2010 Matthew Ranney, http://ranney.com/\n\nPermission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the "Software"), to deal in the Software without\nrestriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\n![spacer](http://ranney.com/1px.gif)\n',
+347 silly resolved     _id: 'redis@0.8.2',
+347 silly resolved     _from: 'redis@>= 0.7.2' },
+347 silly resolved   { name: 'underscore',
+347 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+347 silly resolved     homepage: 'http://underscorejs.org',
+347 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+347 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+347 silly resolved     repository:
+347 silly resolved      { type: 'git',
+347 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+347 silly resolved     main: 'underscore.js',
+347 silly resolved     version: '1.4.3',
+347 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nMany thanks to our contributors:\nhttps://github.com/documentcloud/underscore/contributors\n',
+347 silly resolved     _id: 'underscore@1.4.3',
+347 silly resolved     dist: { shasum: '76b70f15837abb71cc1e3da74980876e16411906' },
+347 silly resolved     _from: 'underscore@>= 1.2.3' },
+347 silly resolved   { name: 'express',
+347 silly resolved     description: 'Sinatra inspired web development framework',
+347 silly resolved     version: '3.0.4',
+347 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+347 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+347 silly resolved     dependencies:
+347 silly resolved      { connect: '2.7.1',
+347 silly resolved        commander: '0.6.1',
+347 silly resolved        'range-parser': '0.0.4',
+347 silly resolved        mkdirp: '0.3.3',
+347 silly resolved        cookie: '0.0.5',
+347 silly resolved        'buffer-crc32': '0.1.1',
+347 silly resolved        fresh: '0.1.0',
+347 silly resolved        methods: '0.0.1',
+347 silly resolved        send: '0.1.0',
+347 silly resolved        'cookie-signature': '0.0.1',
+347 silly resolved        debug: '*' },
+347 silly resolved     devDependencies:
+347 silly resolved      { ejs: '*',
+347 silly resolved        mocha: '*',
+347 silly resolved        jade: '*',
+347 silly resolved        hjs: '*',
+347 silly resolved        stylus: '*',
+347 silly resolved        should: '*',
+347 silly resolved        'connect-redis': '*',
+347 silly resolved        'github-flavored-markdown': '*',
+347 silly resolved        supertest: '0.0.1' },
+347 silly resolved     keywords:
+347 silly resolved      [ 'express',
+347 silly resolved        'framework',
+347 silly resolved        'sinatra',
+347 silly resolved        'web',
+347 silly resolved        'rest',
+347 silly resolved        'restful',
+347 silly resolved        'router',
+347 silly resolved        'app',
+347 silly resolved        'api' ],
+347 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+347 silly resolved     main: 'index',
+347 silly resolved     bin: { express: './bin/express' },
+347 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+347 silly resolved     engines: { node: '*' },
+347 silly resolved     readme: '![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org). [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n  \n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [日本語ドキュメンテーション](http://hideyukisaito.com/doc/expressjs/) by [hideyukisaito](https://github.com/hideyukisaito)\n  * [Русскоязычная документация](http://express-js.ru/)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n```\nproject: express\ncommits: 3559\nactive : 468 days\nfiles  : 237\nauthors: \n 1891\tTj Holowaychuk          53.1%\n 1285\tvisionmedia             36.1%\n  182\tTJ Holowaychuk          5.1%\n   54\tAaron Heckmann          1.5%\n   34\tcsausdev                1.0%\n   26\tciaranj                 0.7%\n   21\tRobert Sköld            0.6%\n    6\tGuillermo Rauch         0.2%\n    3\tDav Glass               0.1%\n    3\tNick Poulden            0.1%\n    2\tRandy Merrill           0.1%\n    2\tBenny Wong              0.1%\n    2\tHunter Loftis           0.1%\n    2\tJake Gordon             0.1%\n    2\tBrian McKinney          0.1%\n    2\tRoman Shtylman          0.1%\n    2\tBen Weaver              0.1%\n    2\tDave Hoover             0.1%\n    2\tEivind Fjeldstad        0.1%\n    2\tDaniel Shaw             0.1%\n    1\tMatt Colyer             0.0%\n    1\tPau Ramon               0.0%\n    1\tPero Pejovic            0.0%\n    1\tPeter Rekdal Sunde      0.0%\n    1\tRaynos                  0.0%\n    1\tTeng Siong Ong          0.0%\n    1\tViktor Kelemen          0.0%\n    1\tctide                   0.0%\n    1\t8bitDesigner            0.0%\n    1\tisaacs                  0.0%\n    1\tmgutz                   0.0%\n    1\tpikeas                  0.0%\n    1\tshuwatto                0.0%\n    1\ttstrimple               0.0%\n    1\tewoudj                  0.0%\n    1\tAdam Sanderson          0.0%\n    1\tAndrii Kostenko         0.0%\n    1\tAndy Hiew               0.0%\n    1\tArpad Borsos            0.0%\n    1\tAshwin Purohit          0.0%\n    1\tBenjen                  0.0%\n    1\tDarren Torpey           0.0%\n    1\tGreg Ritter             0.0%\n    1\tGregory Ritter          0.0%\n    1\tJames Herdman           0.0%\n    1\tJim Snodgrass           0.0%\n    1\tJoe McCann              0.0%\n    1\tJonathan Dumaine        0.0%\n    1\tJonathan Palardy        0.0%\n    1\tJonathan Zacsh          0.0%\n    1\tJustin Lilly            0.0%\n    1\tKen Sato                0.0%\n    1\tMaciej Małecki          0.0%\n    1\tMasahiro Hayashi        0.0%\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+347 silly resolved     _id: 'express@3.0.4',
+347 silly resolved     dist: { shasum: '0d061c927a75f7413b9835e8610d481b26510f3f' },
+347 silly resolved     _from: 'express@>= 2.5.2' } ]
+348 info install async@0.1.22 into G:\receiverData
+349 info install hiredis@0.1.14 into G:\receiverData
+350 info install request@2.12.0 into G:\receiverData
+351 info install redis@0.8.2 into G:\receiverData
+352 info install underscore@1.4.3 into G:\receiverData
+353 info install express@3.0.4 into G:\receiverData
+354 info installOne async@0.1.22
+355 info installOne hiredis@0.1.14
+356 info installOne request@2.12.0
+357 info installOne redis@0.8.2
+358 info installOne underscore@1.4.3
+359 info installOne express@3.0.4
+360 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\async\0.1.22\package\package.json
+361 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\hiredis\0.1.14\package\package.json
+362 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\request\2.12.0\package\package.json
+363 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\redis\0.8.2\package\package.json
+364 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package\package.json
+365 info G:\receiverData\node_modules\async unbuild
+366 verbose read json G:\receiverData\node_modules\async\package.json
+367 info G:\receiverData\node_modules\hiredis unbuild
+368 verbose read json G:\receiverData\node_modules\hiredis\package.json
+369 info G:\receiverData\node_modules\request unbuild
+370 verbose read json G:\receiverData\node_modules\request\package.json
+371 info G:\receiverData\node_modules\redis unbuild
+372 verbose read json G:\receiverData\node_modules\redis\package.json
+373 info G:\receiverData\node_modules\underscore unbuild
+374 verbose read json G:\receiverData\node_modules\underscore\package.json
+375 verbose from cache C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package\package.json
+376 info G:\receiverData\node_modules\express unbuild
+377 verbose read json G:\receiverData\node_modules\express\package.json
+378 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+379 silly lockFile b8e2eb6f--receiverData-node-modules-async G:\receiverData\node_modules\async
+380 verbose lock G:\receiverData\node_modules\async C:\Users\wuyanfei\AppData\Roaming\npm-cache\b8e2eb6f--receiverData-node-modules-async.lock
+381 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\hiredis\0.1.14\package.tgz
+382 silly lockFile bb1cca36-eceiverData-node-modules-hiredis G:\receiverData\node_modules\hiredis
+383 verbose lock G:\receiverData\node_modules\hiredis C:\Users\wuyanfei\AppData\Roaming\npm-cache\bb1cca36-eceiverData-node-modules-hiredis.lock
+384 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\request\2.12.0\package.tgz
+385 silly lockFile c3fb15c2-eceiverData-node-modules-request G:\receiverData\node_modules\request
+386 verbose lock G:\receiverData\node_modules\request C:\Users\wuyanfei\AppData\Roaming\npm-cache\c3fb15c2-eceiverData-node-modules-request.lock
+387 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\redis\0.8.2\package.tgz
+388 silly lockFile 5fd79d99--receiverData-node-modules-redis G:\receiverData\node_modules\redis
+389 verbose lock G:\receiverData\node_modules\redis C:\Users\wuyanfei\AppData\Roaming\npm-cache\5fd79d99--receiverData-node-modules-redis.lock
+390 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\underscore\1.4.3\package.tgz
+391 silly lockFile b8e2fe6a-iverData-node-modules-underscore G:\receiverData\node_modules\underscore
+392 verbose lock G:\receiverData\node_modules\underscore C:\Users\wuyanfei\AppData\Roaming\npm-cache\b8e2fe6a-iverData-node-modules-underscore.lock
+393 verbose tar unpack C:\Users\wuyanfei\AppData\Roaming\npm-cache\express\3.0.4\package.tgz
+394 silly lockFile 2afd525f-eceiverData-node-modules-express G:\receiverData\node_modules\express
+395 verbose lock G:\receiverData\node_modules\express C:\Users\wuyanfei\AppData\Roaming\npm-cache\2afd525f-eceiverData-node-modules-express.lock
+396 silly gunzTarPerm modes [ '755', '644' ]
+397 silly gunzTarPerm modes [ '755', '644' ]
+398 silly gunzTarPerm modes [ '755', '644' ]
+399 silly gunzTarPerm modes [ '755', '644' ]
+400 silly gunzTarPerm modes [ '755', '644' ]
+401 silly gunzTarPerm modes [ '755', '644' ]
+402 silly gunzTarPerm extractEntry package.json
+403 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+404 silly gunzTarPerm extractEntry package.json
+405 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+406 silly gunzTarPerm extractEntry package.json
+407 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+408 silly gunzTarPerm extractEntry package.json
+409 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+410 silly gunzTarPerm extractEntry package.json
+411 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+412 silly gunzTarPerm extractEntry .npmignore
+413 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+414 silly gunzTarPerm extractEntry README.md
+415 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+416 silly gunzTarPerm extractEntry package.json
+417 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+418 silly gunzTarPerm extractEntry .npmignore
+419 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+420 silly gunzTarPerm extractEntry README.md
+421 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+422 silly gunzTarPerm extractEntry README
+423 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+424 silly gunzTarPerm extractEntry bench.js
+425 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+426 silly gunzTarPerm extractEntry README.md
+427 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+428 silly gunzTarPerm extractEntry LICENSE
+429 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+430 silly gunzTarPerm extractEntry .npmignore
+431 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+432 silly gunzTarPerm extractEntry README.md
+433 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+434 silly gunzTarPerm extractEntry .npmignore
+435 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+436 silly gunzTarPerm extractEntry LICENSE
+437 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+438 silly gunzTarPerm extractEntry client.js
+439 silly gunzTarPerm modified mode [ 'client.js', 438, 420 ]
+440 silly gunzTarPerm extractEntry LICENSE
+441 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+442 silly gunzTarPerm extractEntry index.js
+443 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+444 silly gunzTarPerm extractEntry test.js
+445 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+446 silly gunzTarPerm extractEntry diff_multi_bench_output.js
+447 silly gunzTarPerm modified mode [ 'diff_multi_bench_output.js', 438, 420 ]
+448 silly gunzTarPerm extractEntry LICENSE
+449 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+450 silly gunzTarPerm extractEntry index.js
+451 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+452 silly gunzTarPerm extractEntry hiredis.js
+453 silly gunzTarPerm modified mode [ 'hiredis.js', 438, 420 ]
+454 silly gunzTarPerm extractEntry parser_bench.js
+455 silly gunzTarPerm modified mode [ 'parser_bench.js', 438, 420 ]
+456 silly gunzTarPerm extractEntry main.js
+457 silly gunzTarPerm modified mode [ 'main.js', 438, 420 ]
+458 silly gunzTarPerm extractEntry uuid.js
+459 silly gunzTarPerm modified mode [ 'uuid.js', 438, 420 ]
+460 silly gunzTarPerm extractEntry oauth.js
+461 silly gunzTarPerm modified mode [ 'oauth.js', 438, 420 ]
+462 silly gunzTarPerm extractEntry index.js
+463 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+464 silly gunzTarPerm extractEntry test.js
+465 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+466 silly gunzTarPerm extractEntry forever.js
+467 silly gunzTarPerm modified mode [ 'forever.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry tunnel.js
+469 silly gunzTarPerm modified mode [ 'tunnel.js', 438, 420 ]
+470 silly gunzTarPerm extractEntry aws.js
+471 silly gunzTarPerm modified mode [ 'aws.js', 438, 420 ]
+472 silly gunzTarPerm extractEntry tests/test-https-strict.js
+473 silly gunzTarPerm modified mode [ 'tests/test-https-strict.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry underscore-min.js
+475 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+476 silly gunzTarPerm extractEntry underscore.js
+477 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+478 silly gunzTarPerm extractEntry tests/test-headers.js
+479 silly gunzTarPerm modified mode [ 'tests/test-headers.js', 438, 420 ]
+480 silly gunzTarPerm extractEntry Makefile
+481 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+482 silly gunzTarPerm extractEntry deps/hiredis/README.md
+483 silly gunzTarPerm modified mode [ 'deps/hiredis/README.md', 438, 420 ]
+484 silly gunzTarPerm extractEntry .gitmodules
+485 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/async.js
+487 silly gunzTarPerm modified mode [ 'lib/async.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry generate_commands.js
+489 silly gunzTarPerm modified mode [ 'generate_commands.js', 438, 420 ]
+490 silly gunzTarPerm extractEntry multi_bench.js
+491 silly gunzTarPerm modified mode [ 'multi_bench.js', 438, 420 ]
+492 silly gunzTarPerm extractEntry tests/test-httpModule.js
+493 silly gunzTarPerm modified mode [ 'tests/test-httpModule.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry index.html
+495 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+496 silly gunzTarPerm extractEntry tests/run.js
+497 silly gunzTarPerm modified mode [ 'tests/run.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry deps/hiredis/example.c
+499 silly gunzTarPerm modified mode [ 'deps/hiredis/example.c', 438, 420 ]
+500 silly gunzTarPerm extractEntry Makefile
+501 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+502 silly gunzTarPerm extractEntry test3.js
+503 silly gunzTarPerm modified mode [ 'test3.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry tests/test-form.js
+505 silly gunzTarPerm modified mode [ 'tests/test-form.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry deps/hiredis/async.h
+507 silly gunzTarPerm modified mode [ 'deps/hiredis/async.h', 438, 420 ]
+508 silly gunzTarPerm extractEntry index.js
+509 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry tests/test-oauth.js
+511 silly gunzTarPerm modified mode [ 'tests/test-oauth.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry .travis.yml
+513 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+514 silly gunzTarPerm extractEntry History.md
+515 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+516 silly gunzTarPerm extractEntry deps/hiredis/CHANGELOG.md
+517 silly gunzTarPerm modified mode [ 'deps/hiredis/CHANGELOG.md', 438, 420 ]
+518 silly gunzTarPerm extractEntry lib/commands.js
+519 silly gunzTarPerm modified mode [ 'lib/commands.js', 438, 420 ]
+520 silly gunzTarPerm extractEntry tests/test-params.js
+521 silly gunzTarPerm modified mode [ 'tests/test-params.js', 438, 420 ]
+522 silly gunzTarPerm extractEntry deps/hiredis/COPYING
+523 silly gunzTarPerm modified mode [ 'deps/hiredis/COPYING', 438, 420 ]
+524 silly gunzTarPerm extractEntry lib/queue.js
+525 silly gunzTarPerm modified mode [ 'lib/queue.js', 438, 420 ]
+526 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+527 silly gunzTarPerm modified mode [ 'tests/test-piped-redirect.js', 438, 420 ]
+528 silly gunzTarPerm extractEntry Makefile
+529 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+530 silly gunzTarPerm extractEntry lib/to_array.js
+531 silly gunzTarPerm modified mode [ 'lib/to_array.js', 438, 420 ]
+532 silly gunzTarPerm extractEntry tests/test-pipes.js
+533 silly gunzTarPerm modified mode [ 'tests/test-pipes.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry lib/util.js
+535 silly gunzTarPerm modified mode [ 'lib/util.js', 438, 420 ]
+536 silly gunzTarPerm extractEntry tests/test-pool.js
+537 silly gunzTarPerm modified mode [ 'tests/test-pool.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry lib/parser/hiredis.js
+539 silly gunzTarPerm modified mode [ 'lib/parser/hiredis.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry tests/test-follow-all.js
+541 silly gunzTarPerm modified mode [ 'tests/test-follow-all.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry lib/parser/javascript.js
+543 silly gunzTarPerm modified mode [ 'lib/parser/javascript.js', 438, 420 ]
+544 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+545 silly gunzTarPerm modified mode [ 'tests/test-protocol-changing-redirect.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry benches/buffer_bench.js
+547 silly gunzTarPerm modified mode [ 'benches/buffer_bench.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+549 silly gunzTarPerm modified mode [ 'tests/test-follow-all-303.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry benches/hiredis_parser.js
+551 silly gunzTarPerm modified mode [ 'benches/hiredis_parser.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry tests/test-proxy.js
+553 silly gunzTarPerm modified mode [ 'tests/test-proxy.js', 438, 420 ]
+554 silly gunzTarPerm extractEntry CNAME
+555 silly gunzTarPerm modified mode [ 'CNAME', 438, 420 ]
+556 silly gunzTarPerm extractEntry benches/reconnect_test.js
+557 silly gunzTarPerm modified mode [ 'benches/reconnect_test.js', 438, 420 ]
+558 silly gunzTarPerm extractEntry tests/test-errors.js
+559 silly gunzTarPerm modified mode [ 'tests/test-errors.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry favicon.ico
+561 silly gunzTarPerm modified mode [ 'favicon.ico', 438, 420 ]
+562 silly gunzTarPerm extractEntry benches/re_sub_test.js
+563 silly gunzTarPerm modified mode [ 'benches/re_sub_test.js', 438, 420 ]
+564 silly gunzTarPerm extractEntry deps/hiredis/dict.c
+565 silly gunzTarPerm modified mode [ 'deps/hiredis/dict.c', 438, 420 ]
+566 silly gunzTarPerm extractEntry deps/hiredis/dict.h
+567 silly gunzTarPerm modified mode [ 'deps/hiredis/dict.h', 438, 420 ]
+568 silly gunzTarPerm extractEntry bin/express
+569 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+570 silly gunzTarPerm extractEntry Readme.md
+571 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+572 silly gunzTarPerm extractEntry benches/sub_quit_test.js
+573 silly gunzTarPerm modified mode [ 'benches/sub_quit_test.js', 438, 420 ]
+574 silly gunzTarPerm extractEntry benches/stress/codec.js
+575 silly gunzTarPerm modified mode [ 'benches/stress/codec.js', 438, 420 ]
+576 silly gunzTarPerm extractEntry benches/stress/pubsub/pub.js
+577 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/pub.js', 438, 420 ]
+578 silly gunzTarPerm extractEntry benches/stress/pubsub/server.js
+579 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/server.js', 438, 420 ]
+580 silly gunzTarPerm extractEntry benches/stress/pubsub/run
+581 silly gunzTarPerm modified mode [ 'benches/stress/pubsub/run', 438, 420 ]
+582 silly gunzTarPerm extractEntry benches/stress/rpushblpop/pub.js
+583 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/pub.js', 438, 420 ]
+584 silly gunzTarPerm extractEntry benches/stress/rpushblpop/server.js
+585 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/server.js', 438, 420 ]
+586 silly gunzTarPerm extractEntry raw/underscore.psd
+587 silly gunzTarPerm modified mode [ 'raw/underscore.psd', 438, 420 ]
+588 silly gunzTarPerm extractEntry benches/stress/rpushblpop/run
+589 silly gunzTarPerm modified mode [ 'benches/stress/rpushblpop/run', 438, 420 ]
+590 silly gunzTarPerm extractEntry tests/test-qs.js
+591 silly gunzTarPerm modified mode [ 'tests/test-qs.js', 438, 420 ]
+592 silly gunzTarPerm extractEntry tests/test-defaults.js
+593 silly gunzTarPerm modified mode [ 'tests/test-defaults.js', 438, 420 ]
+594 silly gunzTarPerm extractEntry lib/application.js
+595 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+596 silly gunzTarPerm extractEntry lib/express.js
+597 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+598 silly gunzTarPerm extractEntry benches/stress/speed/speed.js
+599 silly gunzTarPerm modified mode [ 'benches/stress/speed/speed.js', 438, 420 ]
+600 silly gunzTarPerm extractEntry deps/hiredis/example-ae.c
+601 silly gunzTarPerm modified mode [ 'deps/hiredis/example-ae.c', 438, 420 ]
+602 silly gunzTarPerm extractEntry deps/hiredis/example-libev.c
+603 silly gunzTarPerm modified mode [ 'deps/hiredis/example-libev.c', 438, 420 ]
+604 silly gunzTarPerm extractEntry benches/stress/speed/00
+605 silly gunzTarPerm modified mode [ 'benches/stress/speed/00', 438, 420 ]
+606 silly gunzTarPerm extractEntry tests/test-redirect.js
+607 silly gunzTarPerm modified mode [ 'tests/test-redirect.js', 438, 420 ]
+608 silly gunzTarPerm extractEntry benches/stress/speed/plot
+609 silly gunzTarPerm modified mode [ 'benches/stress/speed/plot', 438, 420 ]
+610 silly gunzTarPerm extractEntry tests/test-cookiejar.js
+611 silly gunzTarPerm modified mode [ 'tests/test-cookiejar.js', 438, 420 ]
+612 silly gunzTarPerm extractEntry benches/stress/speed/size-rate.png
+613 silly gunzTarPerm modified mode [ 'benches/stress/speed/size-rate.png', 438, 420 ]
+614 silly gunzTarPerm extractEntry tests/test-s3.js
+615 silly gunzTarPerm modified mode [ 'tests/test-s3.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry CONTRIBUTING.md
+617 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+618 silly gunzTarPerm extractEntry tests/test-cookie.js
+619 silly gunzTarPerm modified mode [ 'tests/test-cookie.js', 438, 420 ]
+620 silly gunzTarPerm extractEntry examples/auth.js
+621 silly gunzTarPerm modified mode [ 'examples/auth.js', 438, 420 ]
+622 silly gunzTarPerm extractEntry tests/test-timeout.js
+623 silly gunzTarPerm modified mode [ 'tests/test-timeout.js', 438, 420 ]
+624 silly gunzTarPerm extractEntry examples/mget.js
+625 silly gunzTarPerm modified mode [ 'examples/mget.js', 438, 420 ]
+626 silly gunzTarPerm extractEntry tests/test-body.js
+627 silly gunzTarPerm modified mode [ 'tests/test-body.js', 438, 420 ]
+628 silly gunzTarPerm extractEntry examples/monitor.js
+629 silly gunzTarPerm modified mode [ 'examples/monitor.js', 438, 420 ]
+630 silly gunzTarPerm extractEntry tests/test-toJSON.js
+631 silly gunzTarPerm modified mode [ 'tests/test-toJSON.js', 438, 420 ]
+632 silly gunzTarPerm extractEntry examples/multi.js
+633 silly gunzTarPerm modified mode [ 'examples/multi.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry tests/server.js
+635 silly gunzTarPerm modified mode [ 'tests/server.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry lib/middleware.js
+637 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+638 silly gunzTarPerm extractEntry lib/request.js
+639 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+640 silly gunzTarPerm extractEntry examples/file.js
+641 silly gunzTarPerm modified mode [ 'examples/file.js', 438, 420 ]
+642 silly gunzTarPerm extractEntry tests/test-tunnel.js
+643 silly gunzTarPerm modified mode [ 'tests/test-tunnel.js', 438, 420 ]
+644 silly gunzTarPerm extractEntry examples/psubscribe.js
+645 silly gunzTarPerm modified mode [ 'examples/psubscribe.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry tests/test-https.js
+647 silly gunzTarPerm modified mode [ 'tests/test-https.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry deps/hiredis/example-libevent.c
+649 silly gunzTarPerm modified mode [ 'deps/hiredis/example-libevent.c', 438, 420 ]
+650 silly gunzTarPerm extractEntry deps/hiredis/async.c
+651 silly gunzTarPerm modified mode [ 'deps/hiredis/async.c', 438, 420 ]
+652 silly gunzTarPerm extractEntry examples/pub_sub.js
+653 silly gunzTarPerm modified mode [ 'examples/pub_sub.js', 438, 420 ]
+654 silly gunzTarPerm extractEntry tests/squid.conf
+655 silly gunzTarPerm modified mode [ 'tests/squid.conf', 438, 420 ]
+656 silly gunzTarPerm extractEntry examples/simple.js
+657 silly gunzTarPerm modified mode [ 'examples/simple.js', 438, 420 ]
+658 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+659 silly gunzTarPerm modified mode [ 'tests/ssl/ca/server.js', 438, 420 ]
+660 silly gunzTarPerm extractEntry examples/sort.js
+661 silly gunzTarPerm modified mode [ 'examples/sort.js', 438, 420 ]
+662 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+663 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.srl', 438, 420 ]
+664 silly gunzTarPerm extractEntry examples/subqueries.js
+665 silly gunzTarPerm modified mode [ 'examples/subqueries.js', 438, 420 ]
+666 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+667 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.crt', 438, 420 ]
+668 silly gunzTarPerm extractEntry examples/extend.js
+669 silly gunzTarPerm modified mode [ 'examples/extend.js', 438, 420 ]
+670 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+671 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.csr', 438, 420 ]
+672 silly gunzTarPerm extractEntry examples/subquery.js
+673 silly gunzTarPerm modified mode [ 'examples/subquery.js', 438, 420 ]
+674 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+675 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.key', 438, 420 ]
+676 silly gunzTarPerm extractEntry examples/eval.js
+677 silly gunzTarPerm modified mode [ 'examples/eval.js', 438, 420 ]
+678 silly gunzTarPerm extractEntry lib/response.js
+679 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+680 silly gunzTarPerm extractEntry lib/utils.js
+681 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+682 silly gunzTarPerm extractEntry examples/unix_socket.js
+683 silly gunzTarPerm modified mode [ 'examples/unix_socket.js', 438, 420 ]
+684 silly gunzTarPerm extractEntry examples/backpressure_drain.js
+685 silly gunzTarPerm modified mode [ 'examples/backpressure_drain.js', 438, 420 ]
+686 silly gunzTarPerm extractEntry examples/web_server.js
+687 silly gunzTarPerm modified mode [ 'examples/web_server.js', 438, 420 ]
+688 silly gunzTarPerm extractEntry examples/multi2.js
+689 silly gunzTarPerm modified mode [ 'examples/multi2.js', 438, 420 ]
+690 silly gunzTarPerm extractEntry changelog.md
+691 silly gunzTarPerm modified mode [ 'changelog.md', 438, 420 ]
+692 silly gunzTarPerm extractEntry deps/hiredis/fmacros.h
+693 silly gunzTarPerm modified mode [ 'deps/hiredis/fmacros.h', 438, 420 ]
+694 silly gunzTarPerm extractEntry deps/hiredis/hiredis.c
+695 silly gunzTarPerm modified mode [ 'deps/hiredis/hiredis.c', 438, 420 ]
+696 silly gunzTarPerm extractEntry deps/hiredis/hiredis.h
+697 silly gunzTarPerm modified mode [ 'deps/hiredis/hiredis.h', 438, 420 ]
+698 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+699 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.crl', 438, 420 ]
+700 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+701 silly gunzTarPerm modified mode [ 'tests/ssl/ca/server.cnf', 438, 420 ]
+702 silly gunzTarPerm extractEntry deps/hiredis/Makefile
+703 silly gunzTarPerm modified mode [ 'deps/hiredis/Makefile', 438, 420 ]
+704 silly gunzTarPerm extractEntry deps/hiredis/net.c
+705 silly gunzTarPerm modified mode [ 'deps/hiredis/net.c', 438, 420 ]
+706 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+707 silly gunzTarPerm modified mode [ 'tests/ssl/ca/server.crt', 438, 420 ]
+708 silly gunzTarPerm extractEntry deps/hiredis/net.h
+709 silly gunzTarPerm modified mode [ 'deps/hiredis/net.h', 438, 420 ]
+710 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+711 silly gunzTarPerm modified mode [ 'tests/ssl/ca/server.csr', 438, 420 ]
+712 silly gunzTarPerm extractEntry deps/hiredis/adapters/ae.h
+713 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/ae.h', 438, 420 ]
+714 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+715 silly gunzTarPerm modified mode [ 'tests/ssl/ca/ca.cnf', 438, 420 ]
+716 silly gunzTarPerm extractEntry lib/view.js
+717 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+718 silly gunzTarPerm extractEntry lib/router/index.js
+719 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+720 silly gunzTarPerm extractEntry deps/hiredis/adapters/libev.h
+721 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/libev.h', 438, 420 ]
+722 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+723 silly gunzTarPerm modified mode [ 'tests/ssl/ca/server.key', 438, 420 ]
+724 silly gunzTarPerm extractEntry deps/hiredis/adapters/libevent.h
+725 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/libevent.h', 438, 420 ]
+726 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+727 silly gunzTarPerm modified mode [ 'tests/ssl/npm-ca.crt', 438, 420 ]
+728 silly gunzTarPerm extractEntry lib/router/route.js
+729 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+730 silly gunzTarPerm extractEntry deps/hiredis/sds.c
+731 silly gunzTarPerm modified mode [ 'deps/hiredis/sds.c', 438, 420 ]
+732 silly gunzTarPerm extractEntry tests/ssl/test.crt
+733 silly gunzTarPerm modified mode [ 'tests/ssl/test.crt', 438, 420 ]
+734 silly gunzTarPerm extractEntry deps/hiredis/sds.h
+735 silly gunzTarPerm modified mode [ 'deps/hiredis/sds.h', 438, 420 ]
+736 silly gunzTarPerm extractEntry tests/ssl/test.key
+737 silly gunzTarPerm modified mode [ 'tests/ssl/test.key', 438, 420 ]
+738 silly gunzTarPerm extractEntry deps/hiredis/test.c
+739 silly gunzTarPerm modified mode [ 'deps/hiredis/test.c', 438, 420 ]
+740 silly gunzTarPerm extractEntry tests/googledoodle.png
+741 silly gunzTarPerm modified mode [ 'tests/googledoodle.png', 438, 420 ]
+742 silly gunzTarPerm extractEntry reader.cc
+743 silly gunzTarPerm modified mode [ 'reader.cc', 438, 420 ]
+744 silly gunzTarPerm extractEntry reader.h
+745 silly gunzTarPerm modified mode [ 'reader.h', 438, 420 ]
+746 silly gunzTarPerm extractEntry hiredis.cc
+747 silly gunzTarPerm modified mode [ 'hiredis.cc', 438, 420 ]
+748 silly gunzTarPerm extractEntry test/reader.js
+749 silly gunzTarPerm modified mode [ 'test/reader.js', 438, 420 ]
+750 silly gunzTarPerm extractEntry tests/unicycle.jpg
+751 silly gunzTarPerm modified mode [ 'tests/unicycle.jpg', 438, 420 ]
+752 silly gunzTarPerm extractEntry wscript
+753 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+754 silly gunzTarPerm extractEntry vendor/cookie/index.js
+755 silly gunzTarPerm modified mode [ 'vendor/cookie/index.js', 438, 420 ]
+756 silly gunzTarPerm extractEntry vendor/cookie/jar.js
+757 silly gunzTarPerm modified mode [ 'vendor/cookie/jar.js', 438, 420 ]
+758 silly gunzTarPerm extractEntry node_modules/form-data/package.json
+759 silly gunzTarPerm modified mode [ 'node_modules/form-data/package.json', 438, 420 ]
+760 silly gunzTarPerm extractEntry node_modules/form-data/.npmignore
+761 silly gunzTarPerm modified mode [ 'node_modules/form-data/.npmignore', 438, 420 ]
+762 silly gunzTarPerm extractEntry node_modules/form-data/lib/form_data.js
+763 silly gunzTarPerm modified mode [ 'node_modules/form-data/lib/form_data.js', 438, 420 ]
+764 silly gunzTarPerm extractEntry node_modules/form-data/Makefile
+765 silly gunzTarPerm modified mode [ 'node_modules/form-data/Makefile', 438, 420 ]
+766 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-project
+767 silly gunzTarPerm modified mode [ 'node_modules/form-data/node-form-data.sublime-project',
+767 silly gunzTarPerm   438,
+767 silly gunzTarPerm   420 ]
+768 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-workspace
+769 silly gunzTarPerm modified mode [ 'node_modules/form-data/node-form-data.sublime-workspace',
+769 silly gunzTarPerm   438,
+769 silly gunzTarPerm   420 ]
+770 silly gunzTarPerm extractEntry node_modules/form-data/Readme.md
+771 silly gunzTarPerm modified mode [ 'node_modules/form-data/Readme.md', 438, 420 ]
+772 silly gunzTarPerm extractEntry node_modules/form-data/test/common.js
+773 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/common.js', 438, 420 ]
+774 silly gunzTarPerm extractEntry node_modules/form-data/test/run.js
+775 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/run.js', 438, 420 ]
+776 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/bacon.txt
+777 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/fixture/bacon.txt', 438, 420 ]
+778 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/unicycle.jpg
+779 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/fixture/unicycle.jpg', 438, 420 ]
+780 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-form-get-length.js
+781 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/integration/test-form-get-length.js',
+781 silly gunzTarPerm   438,
+781 silly gunzTarPerm   420 ]
+782 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-get-boundary.js
+783 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/integration/test-get-boundary.js',
+783 silly gunzTarPerm   438,
+783 silly gunzTarPerm   420 ]
+784 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-http-response.js
+785 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/integration/test-http-response.js',
+785 silly gunzTarPerm   438,
+785 silly gunzTarPerm   420 ]
+786 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-pipe.js
+787 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/integration/test-pipe.js',
+787 silly gunzTarPerm   438,
+787 silly gunzTarPerm   420 ]
+788 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-submit.js
+789 silly gunzTarPerm modified mode [ 'node_modules/form-data/test/integration/test-submit.js',
+789 silly gunzTarPerm   438,
+789 silly gunzTarPerm   420 ]
+790 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/package.json
+791 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/package.json',
+791 silly gunzTarPerm   438,
+791 silly gunzTarPerm   420 ]
+792 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/README.md
+793 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/README.md',
+793 silly gunzTarPerm   438,
+793 silly gunzTarPerm   420 ]
+794 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/LICENSE
+795 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/LICENSE', 438, 420 ]
+796 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/index.js
+797 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/index.js',
+797 silly gunzTarPerm   438,
+797 silly gunzTarPerm   420 ]
+798 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/.gitmodules
+799 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/.gitmodules',
+799 silly gunzTarPerm   438,
+799 silly gunzTarPerm   420 ]
+800 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/lib/async.js
+801 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/lib/async.js',
+801 silly gunzTarPerm   438,
+801 silly gunzTarPerm   420 ]
+802 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/async.min.js.gzip
+803 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/async.min.js.gzip',
+803 silly gunzTarPerm   438,
+803 silly gunzTarPerm   420 ]
+804 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/Makefile
+805 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/Makefile',
+805 silly gunzTarPerm   438,
+805 silly gunzTarPerm   420 ]
+806 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/nodelint.cfg
+807 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/nodelint.cfg',
+807 silly gunzTarPerm   438,
+807 silly gunzTarPerm   420 ]
+808 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.js
+809 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/deps/nodeunit.js',
+809 silly gunzTarPerm   438,
+809 silly gunzTarPerm   420 ]
+810 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.css
+811 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/deps/nodeunit.css',
+811 silly gunzTarPerm   438,
+811 silly gunzTarPerm   420 ]
+812 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/dist/async.min.js
+813 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/dist/async.min.js',
+813 silly gunzTarPerm   438,
+813 silly gunzTarPerm   420 ]
+814 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test-async.js
+815 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/test/test-async.js',
+815 silly gunzTarPerm   438,
+815 silly gunzTarPerm   420 ]
+816 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/.swp
+817 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/test/.swp',
+817 silly gunzTarPerm   438,
+817 silly gunzTarPerm   420 ]
+818 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test.html
+819 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/async/test/test.html',
+819 silly gunzTarPerm   438,
+819 silly gunzTarPerm   420 ]
+820 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/package.json
+821 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/package.json',
+821 silly gunzTarPerm   438,
+821 silly gunzTarPerm   420 ]
+822 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/.npmignore
+823 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/.npmignore',
+823 silly gunzTarPerm   438,
+823 silly gunzTarPerm   420 ]
+824 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js
+825 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js',
+825 silly gunzTarPerm   438,
+825 silly gunzTarPerm   420 ]
+826 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/License
+827 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/License',
+827 silly gunzTarPerm   438,
+827 silly gunzTarPerm   420 ]
+828 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Makefile
+829 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/Makefile',
+829 silly gunzTarPerm   438,
+829 silly gunzTarPerm   420 ]
+830 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Readme.md
+831 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/Readme.md',
+831 silly gunzTarPerm   438,
+831 silly gunzTarPerm   420 ]
+832 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/common.js
+833 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/common.js',
+833 silly gunzTarPerm   438,
+833 silly gunzTarPerm   420 ]
+834 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/run.js
+835 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/run.js',
+835 silly gunzTarPerm   438,
+835 silly gunzTarPerm   420 ]
+836 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt
+837 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt',
+837 silly gunzTarPerm   438,
+837 silly gunzTarPerm   420 ]
+838 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt
+839 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt',
+839 silly gunzTarPerm   438,
+839 silly gunzTarPerm   420 ]
+840 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js
+841 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js',
+841 silly gunzTarPerm   438,
+841 silly gunzTarPerm   420 ]
+842 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js
+843 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js',
+843 silly gunzTarPerm   438,
+843 silly gunzTarPerm   420 ]
+844 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js
+845 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js',
+845 silly gunzTarPerm   438,
+845 silly gunzTarPerm   420 ]
+846 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js
+847 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js',
+847 silly gunzTarPerm   438,
+847 silly gunzTarPerm   420 ]
+848 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js
+849 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js',
+849 silly gunzTarPerm   438,
+849 silly gunzTarPerm   420 ]
+850 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js
+851 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js',
+851 silly gunzTarPerm   438,
+851 silly gunzTarPerm   420 ]
+852 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+853 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json',
+853 silly gunzTarPerm   438,
+853 silly gunzTarPerm   420 ]
+854 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+855 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore',
+855 silly gunzTarPerm   438,
+855 silly gunzTarPerm   420 ]
+856 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+857 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js',
+857 silly gunzTarPerm   438,
+857 silly gunzTarPerm   420 ]
+858 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License
+859 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License',
+859 silly gunzTarPerm   438,
+859 silly gunzTarPerm   420 ]
+860 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+861 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile',
+861 silly gunzTarPerm   438,
+861 silly gunzTarPerm   420 ]
+862 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+863 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md',
+863 silly gunzTarPerm   438,
+863 silly gunzTarPerm   420 ]
+864 verbose read json G:\receiverData\node_modules\async\package.json
+865 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+866 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js',
+866 silly gunzTarPerm   438,
+866 silly gunzTarPerm   420 ]
+867 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+868 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js',
+868 silly gunzTarPerm   438,
+868 silly gunzTarPerm   420 ]
+869 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+870 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js',
+870 silly gunzTarPerm   438,
+870 silly gunzTarPerm   420 ]
+871 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+872 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js',
+872 silly gunzTarPerm   438,
+872 silly gunzTarPerm   420 ]
+873 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+874 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js',
+874 silly gunzTarPerm   438,
+874 silly gunzTarPerm   420 ]
+875 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+876 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js',
+876 silly gunzTarPerm   438,
+876 silly gunzTarPerm   420 ]
+877 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+878 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js',
+878 silly gunzTarPerm   438,
+878 silly gunzTarPerm   420 ]
+879 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+880 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js',
+880 silly gunzTarPerm   438,
+880 silly gunzTarPerm   420 ]
+881 silly lockFile b8e2eb6f--receiverData-node-modules-async G:\receiverData\node_modules\async
+882 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+883 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js',
+883 silly gunzTarPerm   438,
+883 silly gunzTarPerm   420 ]
+884 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+885 silly gunzTarPerm modified mode [ 'node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js',
+885 silly gunzTarPerm   438,
+885 silly gunzTarPerm   420 ]
+886 silly gunzTarPerm extractEntry node_modules/mime/package.json
+887 silly gunzTarPerm modified mode [ 'node_modules/mime/package.json', 438, 420 ]
+888 silly gunzTarPerm extractEntry node_modules/mime/README.md
+889 silly gunzTarPerm modified mode [ 'node_modules/mime/README.md', 438, 420 ]
+890 silly gunzTarPerm extractEntry node_modules/mime/LICENSE
+891 silly gunzTarPerm modified mode [ 'node_modules/mime/LICENSE', 438, 420 ]
+892 info preinstall async@0.1.22
+893 verbose from cache G:\receiverData\node_modules\async\package.json
+894 verbose readDependencies using package.json deps
+895 verbose from cache G:\receiverData\node_modules\async\package.json
+896 verbose readDependencies using package.json deps
+897 silly resolved []
+898 verbose about to build G:\receiverData\node_modules\async
+899 info build G:\receiverData\node_modules\async
+900 verbose from cache G:\receiverData\node_modules\async\package.json
+901 verbose linkStuff [ false, false, false, 'G:\\receiverData\\node_modules' ]
+902 info linkStuff async@0.1.22
+903 verbose linkBins async@0.1.22
+904 verbose linkMans async@0.1.22
+905 verbose rebuildBundles async@0.1.22
+906 info install async@0.1.22
+907 silly gunzTarPerm extractEntry node_modules/mime/mime.js
+908 silly gunzTarPerm modified mode [ 'node_modules/mime/mime.js', 438, 420 ]
+909 silly gunzTarPerm extractEntry node_modules/mime/test.js
+910 silly gunzTarPerm modified mode [ 'node_modules/mime/test.js', 438, 420 ]
+911 info postinstall async@0.1.22
+912 silly gunzTarPerm extractEntry node_modules/mime/types/mime.types
+913 silly gunzTarPerm modified mode [ 'node_modules/mime/types/mime.types', 438, 420 ]
+914 silly gunzTarPerm extractEntry node_modules/mime/types/node.types
+915 silly gunzTarPerm modified mode [ 'node_modules/mime/types/node.types', 438, 420 ]
+916 verbose read json G:\receiverData\node_modules\express\package.json
+917 silly lockFile 2afd525f-eceiverData-node-modules-express G:\receiverData\node_modules\express
+918 info preinstall express@3.0.4
+919 verbose from cache G:\receiverData\node_modules\express\package.json
+920 verbose readDependencies using package.json deps
+921 verbose from cache G:\receiverData\node_modules\express\package.json
+922 verbose readDependencies using package.json deps
+923 verbose read json G:\receiverData\node_modules\underscore\package.json
+924 verbose cache add [ 'connect@2.7.1', null ]
+925 silly cache add name=undefined spec="connect@2.7.1" args=["connect@2.7.1",null]
+926 verbose parsed url { pathname: 'connect@2.7.1',
+926 verbose parsed url   path: 'connect@2.7.1',
+926 verbose parsed url   href: 'connect@2.7.1' }
+927 silly cache add name="connect" spec="2.7.1" args=["connect","2.7.1"]
+928 verbose parsed url { pathname: '2.7.1', path: '2.7.1', href: '2.7.1' }
+929 verbose addNamed [ 'connect', '2.7.1' ]
+930 verbose addNamed [ '2.7.1', '2.7.1' ]
+931 silly lockFile 6d424c20-connect-2-7-1 connect@2.7.1
+932 verbose lock connect@2.7.1 C:\Users\wuyanfei\AppData\Roaming\npm-cache\6d424c20-connect-2-7-1.lock
+933 verbose cache add [ 'commander@0.6.1', null ]
+934 silly cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+935 verbose parsed url { pathname: 'commander@0.6.1',
+935 verbose parsed url   path: 'commander@0.6.1',
+935 verbose parsed url   href: 'commander@0.6.1' }
+936 silly cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+937 verbose parsed url { pathname: '0.6.1', path: '0.6.1', href: '0.6.1' }
+938 verbose addNamed [ 'commander', '0.6.1' ]
+939 verbose addNamed [ '0.6.1', '0.6.1' ]
+940 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+941 verbose lock commander@0.6.1 C:\Users\wuyanfei\AppData\Roaming\npm-cache\fa16a2ce-commander-0-6-1.lock
+942 verbose cache add [ 'range-parser@0.0.4', null ]
+943 silly cache add name=undefined spec="range-parser@0.0.4" args=["range-parser@0.0.4",null]
+944 verbose parsed url { pathname: 'range-parser@0.0.4',
+944 verbose parsed url   path: 'range-parser@0.0.4',
+944 verbose parsed url   href: 'range-parser@0.0.4' }
+945 silly cache add name="range-parser" spec="0.0.4" args=["range-parser","0.0.4"]
+946 verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+947 verbose addNamed [ 'range-parser', '0.0.4' ]
+948 verbose addNamed [ '0.0.4', '0.0.4' ]
+949 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+950 verbose lock range-parser@0.0.4 C:\Users\wuyanfei\AppData\Roaming\npm-cache\0760c556-range-parser-0-0-4.lock
+951 verbose cache add [ 'mkdirp@0.3.3', null ]
+952 silly cache add name=undefined spec="mkdirp@0.3.3" args=["mkdirp@0.3.3",null]
+953 verbose parsed url { pathname: 'mkdirp@0.3.3',
+953 verbose parsed url   path: 'mkdirp@0.3.3',
+953 verbose parsed url   href: 'mkdirp@0.3.3' }
+954 silly cache add name="mkdirp" spec="0.3.3" args=["mkdirp","0.3.3"]
+955 verbose parsed url { pathname: '0.3.3', path: '0.3.3', href: '0.3.3' }
+956 verbose addNamed [ 'mkdirp', '0.3.3' ]
+957 verbose addNamed [ '0.3.3', '0.3.3' ]
+958 silly lockFile 453bb99b-mkdirp-0-3-3 mkdirp@0.3.3
+959 verbose lock mkdirp@0.3.3 C:\Users\wuyanfei\AppData\Roaming\npm-cache\453bb99b-mkdirp-0-3-3.lock
+960 verbose cache add [ 'cookie@0.0.5', null ]
+961 silly cache add name=undefined spec="cookie@0.0.5" args=["cookie@0.0.5",null]
+962 verbose parsed url { pathname: 'cookie@0.0.5',
+962 verbose parsed url   path: 'cookie@0.0.5',
+962 verbose parsed url   href: 'cookie@0.0.5' }
+963 silly cache add name="cookie" spec="0.0.5" args=["cookie","0.0.5"]
+964 verbose parsed url { pathname: '0.0.5', path: '0.0.5', href: '0.0.5' }
+965 verbose addNamed [ 'cookie', '0.0.5' ]
+966 verbose addNamed [ '0.0.5', '0.0.5' ]
+967 silly lockFile fe08ced7-cookie-0-0-5 cookie@0.0.5
+968 verbose lock cookie@0.0.5 C:\Users\wuyanfei\AppData\Roaming\npm-cache\fe08ced7-cookie-0-0-5.lock
+969 verbose cache add [ 'buffer-crc32@0.1.1', null ]
+970 silly cache add name=undefined spec="buffer-crc32@0.1.1" args=["buffer-crc32@0.1.1",null]
+971 verbose parsed url { pathname: 'buffer-crc32@0.1.1',
+971 verbose parsed url   path: 'buffer-crc32@0.1.1',
+971 verbose parsed url   href: 'buffer-crc32@0.1.1' }
+972 silly cache add name="buffer-crc32" spec="0.1.1" args=["buffer-crc32","0.1.1"]
+973 verbose parsed url { pathname: '0.1.1', path: '0.1.1', href: '0.1.1' }
+974 verbose addNamed [ 'buffer-crc32', '0.1.1' ]
+975 verbose addNamed [ '0.1.1', '0.1.1' ]
+976 silly lockFile 8fdeba6f-buffer-crc32-0-1-1 buffer-crc32@0.1.1
+977 verbose lock buffer-crc32@0.1.1 C:\Users\wuyanfei\AppData\Roaming\npm-cache\8fdeba6f-buffer-crc32-0-1-1.lock
+978 verbose cache add [ 'fresh@0.1.0', null ]
+979 silly cache add name=undefined spec="fresh@0.1.0" args=["fresh@0.1.0",null]
+980 verbose parsed url { pathname: 'fresh@0.1.0',
+980 verbose parsed url   path: 'fresh@0.1.0',
+980 verbose parsed url   href: 'fresh@0.1.0' }
+981 silly cache add name="fresh" spec="0.1.0" args=["fresh","0.1.0"]
+982 verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+983 verbose addNamed [ 'fresh', '0.1.0' ]
+984 verbose addNamed [ '0.1.0', '0.1.0' ]
+985 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+986 verbose lock fresh@0.1.0 C:\Users\wuyanfei\AppData\Roaming\npm-cache\3dea7da8-fresh-0-1-0.lock
+987 verbose cache add [ 'methods@0.0.1', null ]
+988 silly cache add name=undefined spec="methods@0.0.1" args=["methods@0.0.1",null]
+989 verbose parsed url { pathname: 'methods@0.0.1',
+989 verbose parsed url   path: 'methods@0.0.1',
+989 verbose parsed url   href: 'methods@0.0.1' }
+990 silly cache add name="methods" spec="0.0.1" args=["methods","0.0.1"]
+991 verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+992 verbose addNamed [ 'methods', '0.0.1' ]
+993 verbose addNamed [ '0.0.1', '0.0.1' ]
+994 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+995 verbose lock methods@0.0.1 C:\Users\wuyanfei\AppData\Roaming\npm-cache\209c2920-methods-0-0-1.lock
+996 verbose cache add [ 'send@0.1.0', null ]
+997 silly cache add name=undefined spec="send@0.1.0" args=["send@0.1.0",null]
+998 verbose parsed url { pathname: 'send@0.1.0',
+998 verbose parsed url   path: 'send@0.1.0',
+998 verbose parsed url   href: 'send@0.1.0' }
+999 silly cache add name="send" spec="0.1.0" args=["send","0.1.0"]
+1000 verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+1001 verbose addNamed [ 'send', '0.1.0' ]
+1002 verbose addNamed [ '0.1.0', '0.1.0' ]
+1003 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+1004 verbose lock send@0.1.0 C:\Users\wuyanfei\AppData\Roaming\npm-cache\ef2886cd-send-0-1-0.lock
+1005 verbose cache add [ 'cookie-signature@0.0.1', null ]
+1006 silly cache add name=undefined spec="cookie-signature@0.0.1" args=["cookie-signature@0.0.1",null]
+1007 verbose parsed url { pathname: 'cookie-signature@0.0.1',
+1007 verbose parsed url   path: 'cookie-signature@0.0.1',
+1007 verbose parsed url   href: 'cookie-signature@0.0.1' }
+1008 silly cache add name="cookie-signature" spec="0.0.1" args=["cookie-signature","0.0.1"]
+1009 verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+1010 verbose addNamed [ 'cookie-signature', '0.0.1' ]
+1011 verbose addNamed [ '0.0.1', '0.0.1' ]
+1012 silly lockFile f4fbff07-cookie-signature-0-0-1 cookie-signature@0.0.1
+1013 verbose lock cookie-signature@0.0.1 C:\Users\wuyanfei\AppData\Roaming\npm-cache\f4fbff07-cookie-signature-0-0-1.lock
+1014 verbose cache add [ 'debug@*', null ]
+1015 silly cache add name=undefined spec="debug@*" args=["debug@*",null]
+1016 verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+1017 silly cache add name="debug" spec="*" args=["debug","*"]
+1018 verbose parsed url { pathname: '*', path: '*', href: '*' }
+1019 verbose addNamed [ 'debug', '*' ]
+1020 verbose addNamed [ null, '' ]
+1021 silly lockFile 3ac45eff-debug debug@*
+1022 verbose lock debug@* C:\Users\wuyanfei\AppData\Roaming\npm-cache\3ac45eff-debug.lock
+1023 silly lockFile b8e2fe6a-iverData-node-modules-underscore G:\receiverData\node_modules\underscore
+1024 verbose url raw connect/2.7.1
+1025 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.7.1' ]
+1026 verbose url resolved https://registry.npmjs.org/connect/2.7.1
+1027 info trying registry request attempt 1 at 13:22:23
+1028 http GET https://registry.npmjs.org/connect/2.7.1
+1029 silly addNameRange { name: 'debug', range: '', hasData: false }
+1030 info preinstall underscore@1.4.3
+1031 verbose from cache G:\receiverData\node_modules\underscore\package.json
+1032 verbose readDependencies using package.json deps
+1033 verbose from cache G:\receiverData\node_modules\underscore\package.json
+1034 verbose readDependencies using package.json deps
+1035 silly resolved []
+1036 verbose about to build G:\receiverData\node_modules\underscore
+1037 info build G:\receiverData\node_modules\underscore
+1038 verbose from cache G:\receiverData\node_modules\underscore\package.json
+1039 verbose linkStuff [ false, false, false, 'G:\\receiverData\\node_modules' ]
+1040 info linkStuff underscore@1.4.3
+1041 verbose linkBins underscore@1.4.3
+1042 verbose linkMans underscore@1.4.3
+1043 verbose rebuildBundles underscore@1.4.3
+1044 info install underscore@1.4.3
+1045 info postinstall underscore@1.4.3
+1046 verbose url raw buffer-crc32/0.1.1
+1047 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32/0.1.1' ]
+1048 verbose url resolved https://registry.npmjs.org/buffer-crc32/0.1.1
+1049 info trying registry request attempt 1 at 13:22:23
+1050 http GET https://registry.npmjs.org/buffer-crc32/0.1.1
+1051 verbose url raw cookie-signature/0.0.1
+1052 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/0.0.1' ]
+1053 verbose url resolved https://registry.npmjs.org/cookie-signature/0.0.1
+1054 info trying registry request attempt 1 at 13:22:24
+1055 verbose etag "D7HZOW1WU8EE6OC594E2NF3NU"
+1056 http GET https://registry.npmjs.org/cookie-signature/0.0.1
+1057 verbose url raw mkdirp/0.3.3
+1058 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.3' ]
+1059 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.3
+1060 info trying registry request attempt 1 at 13:22:24
+1061 verbose etag "AHKPZ9B5R2AVAN24CLVUD937X"
+1062 http GET https://registry.npmjs.org/mkdirp/0.3.3
+1063 verbose url raw commander/0.6.1
+1064 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+1065 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+1066 info trying registry request attempt 1 at 13:22:24
+1067 verbose etag "4TQ4WA6MSKFB2U87PJ6TZKCCG"
+1068 http GET https://registry.npmjs.org/commander/0.6.1
+1069 verbose url raw debug
+1070 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+1071 verbose url resolved https://registry.npmjs.org/debug
+1072 info trying registry request attempt 1 at 13:22:24
+1073 verbose etag "1VV6MMVNM344VBG8CYRJFZAZI"
+1074 http GET https://registry.npmjs.org/debug
+1075 verbose url raw range-parser/0.0.4
+1076 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/0.0.4' ]
+1077 verbose url resolved https://registry.npmjs.org/range-parser/0.0.4
+1078 info trying registry request attempt 1 at 13:22:24
+1079 verbose etag "AKBE8DZX1QIIFDPDNZED2IPJ9"
+1080 http GET https://registry.npmjs.org/range-parser/0.0.4
+1081 verbose url raw methods/0.0.1
+1082 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.0.1' ]
+1083 verbose url resolved https://registry.npmjs.org/methods/0.0.1
+1084 info trying registry request attempt 1 at 13:22:24
+1085 verbose etag "9WQCTURRUKLOS53F2GVAOU321"
+1086 http GET https://registry.npmjs.org/methods/0.0.1
+1087 verbose url raw send/0.1.0
+1088 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.0' ]
+1089 verbose url resolved https://registry.npmjs.org/send/0.1.0
+1090 info trying registry request attempt 1 at 13:22:24
+1091 verbose etag "46HIWDP2EYYWQ5D4BDFXE81LN"
+1092 http GET https://registry.npmjs.org/send/0.1.0
+1093 verbose url raw cookie/0.0.5
+1094 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.0.5' ]
+1095 verbose url resolved https://registry.npmjs.org/cookie/0.0.5
+1096 info trying registry request attempt 1 at 13:22:24
+1097 verbose etag "CGWLTFZV1RT7WUUDFMQSL0IXP"
+1098 http GET https://registry.npmjs.org/cookie/0.0.5
+1099 verbose url raw fresh/0.1.0
+1100 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.1.0' ]
+1101 verbose url resolved https://registry.npmjs.org/fresh/0.1.0
+1102 info trying registry request attempt 1 at 13:22:24
+1103 verbose etag "BO3Y8STBKV90Y3IKZ4W2MCLLV"
+1104 http GET https://registry.npmjs.org/fresh/0.1.0
+1105 verbose read json G:\receiverData\node_modules\hiredis\package.json
+1106 silly lockFile bb1cca36-eceiverData-node-modules-hiredis G:\receiverData\node_modules\hiredis
+1107 info preinstall hiredis@0.1.14
+1108 verbose unsafe-perm in lifecycle true
+1109 silly exec cmd "/c" "make || gmake"
+1110 silly cmd,/c,make || gmake,G:\receiverData\node_modules\hiredis spawning
+1111 info hiredis@0.1.14 Failed to exec preinstall script
+1112 info G:\receiverData\node_modules\hiredis unbuild
+1113 verbose from cache G:\receiverData\node_modules\hiredis\package.json
+1114 info preuninstall hiredis@0.1.14
+1115 info uninstall hiredis@0.1.14
+1116 verbose true,G:\receiverData\node_modules,G:\receiverData\node_modules unbuild hiredis@0.1.14
+1117 info postuninstall hiredis@0.1.14
+1118 error hiredis@0.1.14 preinstall: `make || gmake`
+1118 error `cmd "/c" "make || gmake"` failed with 1
+1119 error Failed at the hiredis@0.1.14 preinstall script.
+1119 error This is most likely a problem with the hiredis package,
+1119 error not with npm itself.
+1119 error Tell the author that this fails on your system:
+1119 error     make || gmake
+1119 error You can get their info via:
+1119 error     npm owner ls hiredis
+1119 error There is likely additional logging output above.
+1120 error System Windows_NT 6.1.7601
+1121 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-d"
+1122 error cwd G:\receiverData
+1123 error node -v v0.8.9
+1124 error npm -v 1.1.61
+1125 error code ELIFECYCLE
+1126 verbose exit [ 1, true ]
