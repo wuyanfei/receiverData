@@ -48,7 +48,10 @@ if(cluster.isMaster) {
 			'code': 0
 		};
 		console.log(req.body);
-		pkParse.emit("start-parse", parse);
+		pkParse.emit("start-parse", parse.res);
+	});
+	pkParse.on('fetch-finished',function(task){
+		task.res.end('ok');
 	});
 	app.listen(configs.serverport);
 	log.debug('******pid：'+process.pid+'，接收端(Port:' + configs.serverport + ')启动.。。 ');
