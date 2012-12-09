@@ -40,19 +40,45 @@ if(cluster.isMaster) {
 	var express = require('express');
 	var app = express();
 	var pkParse = require('./lib/parse').createPakageParse();
+	var pkFetch = require('./lib/fetch').createPakageFetch();
+	/*
+	 *发送数据
+	 */
 	app.post(configs.receiver.capital, function(req, res) {
 		res.header("Content-Type", "application/json; charset=utf-8");
 		var parse = {
 			'parse': req.body,
-			'res': res,
-			'code': 0
+			'res': res
 		};
-		console.log(req.body);
-		pkParse.emit("start-parse", parse.res);
+		//console.log(req.body);
+		pkParse.emit("start-parse", parse);
 	});
-	pkParse.on('fetch-finished',function(task){
+	/*
+	 * 取数据
+	 */
+	app.post('/fetchData',function(req,res){
+		res.header("Content-Type", "application/json; charset=utf-8");
+		var parse = {
+			'parse': req.body,
+			'res': res
+		};
+		pkFetch.emit("start-fetch", parse);
+	});
+
+	/*
+	 *解析发送数据结束
+	 */
+	pkParse.on('parse-finished',function(task){
 		task.res.end('ok');
 	});
+
+	/*
+	 *解析取数据结束
+	 */
+	pkFetch.on('fetch-finished',function(returnValue){
+		task.res.end(returnValue);
+	});
+
 	app.listen(configs.serverport);
 	log.debug('******pid：'+process.pid+'，接收端(Port:' + configs.serverport + ')启动.。。 ');
 }
