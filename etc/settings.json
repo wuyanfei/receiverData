@@ -1,20 +1,5 @@
 {
-  "logPath": "/opt/node-pro/logs/receiveData.log",
-  "projectName": "receiveData",
   "logUrl": "http://172.16.39.36:10060/logsPost",
-  "initRedis": {
-    "host": "127.0.0.1",
-    "port": 6379
-  },
   "serverport": 10050,
-  "receiver": {
-    "capital": "/ReceiverCapital"
-  },
-  "redis": ["172.16.33.203:6390", "127.0.0.1:6379"],
-  "log": {
-    "debug": "0"
-  },
-  "concurrency": {
-    "count": 10
-  }
+  "redis": ["127.0.0.1:6380", "127.0.0.1:6399"]
 }

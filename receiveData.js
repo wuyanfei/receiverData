@@ -2,7 +2,7 @@
  * 接收数据主程序 多线程版
  **/
 var fs = require('fs');
-var configs = require('../etc/loadConfigure').configure;
+var configs = require('./etc/loadConfigure').configure;
 var cluster = require('cluster');
 var log = require('./lib/web-log').log('/opt/node-pro/logs/receiveData.log');
 var cpus = require('os').cpus().length;
@@ -44,7 +44,7 @@ if(cluster.isMaster) {
 	/*
 	 *发送数据
 	 */
-	app.post(configs.receiver.capital, function(req, res) {
+	app.post('/ReceiverCapital', function(req, res) {
 		res.header("Content-Type", "application/json; charset=utf-8");
 		var parse = {
 			'parse': req.body,

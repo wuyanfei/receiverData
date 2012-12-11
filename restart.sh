@@ -3,7 +3,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:$PATH
 export PATH
 
-cd /home/cool/Documents/receiverData
+cd /opt/node-pro/receiverData
 pid=`cat process.pid`
 if [ -z $pid ]
 then
