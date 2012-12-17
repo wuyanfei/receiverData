@@ -4,7 +4,7 @@
 var fs = require('fs');
 var configs = require('./etc/loadConfigure').configure;
 var cluster = require('cluster');
-var log = require('./lib/web-log').log('/opt/node-pro/logs/receiveData.log');
+var log = require('./lib/web-log').log('receiveData.log');
 var cpus = require('os').cpus().length;
 var _ = require('underscore');
 var workers = {}; //子线程
