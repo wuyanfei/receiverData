@@ -41,44 +41,61 @@ if(cluster.isMaster) {
 	var app = express();
 	var pkParse = require('./lib/parse').createPakageParse();
 	var pkFetch = require('./lib/fetch').createPakageFetch();
-	/*
-	 *发送数据
-	 */
-	app.post('/ReceiverCapital', function(req, res) {
-		res.header("Content-Type", "application/json; charset=utf-8");
-		var parse = {
-			'parse': req.body,
-			'res': res
-		};
-		//console.log(req.body);
-		pkParse.emit("start-parse", parse);
-	});
+	var getDatas = function(req, cb) {
+			var body = '';
+			req.setEncoding('utf8');
+			req.on('data', function(chunk) {
+				body += chunk;
+			});
+			req.on('end', function() {
+				body = JSON.parse(body);
+				// console.log(body);
+				cb(body);
+			});
+		}
+		/*
+		 *发送数据
+		 */
+		app.post('/ReceiverCapital', function(req, res) {
+			res.header("Content-Type", "application/json; charset=utf-8");
+			getDatas(req, function(body) {
+				var parse = {
+					'parse': body,
+					'res': res
+				};
+				pkParse.emit("start-parse", parse);
+				// console.log(body);
+			});
+		});
 	/*
 	 * 取数据
 	 */
-	app.post('/fetchData',function(req,res){
+	app.post('/fetchData', function(req, res) {
 		res.header("Content-Type", "application/json; charset=utf-8");
-		var parse = {
-			'parse': req.body,
-			'res': res
-		};
-		pkFetch.emit("start-fetch", parse);
+		getDatas(req, function(body) {
+			var parse = {
+				'parse': body,
+				'res': res
+			};
+			pkFetch.emit("start-fetch", parse);
+			// console.log(body);
+		});
 	});
 
 	/*
 	 *解析发送数据结束
 	 */
-	pkParse.on('parse-finished',function(task){
+	pkParse.on('parse-finished', function(task) {
 		task.res.end('ok');
 	});
 
 	/*
 	 *解析取数据结束
 	 */
-	pkFetch.on('fetch-finished',function(returnValue){
+	pkFetch.on('fetch-finished', function(returnValue) {
 		task.res.end(returnValue);
 	});
 
 	app.listen(configs.serverport);
-	log.debug('******pid：'+process.pid+'，接收端(Port:' + configs.serverport + ')启动.。。 ');
+	log.debug('******pid：' + process.pid + '，接收端(Port:' + configs.serverport + ')启动.。。 ');
 }
