@@ -1,0 +1,109 @@
+队列大小：0
+DEBUG: 从线程池中取2个线程。
+DEBUG: toRunning:6317
+DEBUG: toRunning:6318
+zi:6318
+fake on message { pid: 6318, timestamp: '20121225172152543' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172152543' }
+DEBUG: 6318,1,20121225172152543
+ChildProcess  { pid: 6318, timestamp: '20121225172152544' }
+zi:6317
+fake on message { pid: 6317, timestamp: '20121225172152604' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172152604' }
+DEBUG: 6317,2,20121225172152604
+DEBUG: COUNT=2
+DEBUG: it is over.2,6317
+set next task.
+ChildProcess  { pid: 6317, timestamp: '20121225172152605' }
+队列大小：0
+DEBUG: 从线程池中取8个线程。
+DEBUG: toRunning:6317
+DEBUG: toRunning:6318
+DEBUG: toRunning:6320
+DEBUG: toRunning:6322
+DEBUG: toRunning:6325
+DEBUG: toRunning:6327
+DEBUG: toRunning:6328
+DEBUG: toRunning:6330
+zi:6330
+fake on message { pid: 6330, timestamp: '20121225172157863' }
+ChildProcess  { pid: 6330, timestamp: '20121225172157885' }
+#TEST#proc.on  { pid: 6330, timestamp: '20121225172157863' }
+DEBUG: 6330,1,20121225172157863
+zi:6328
+fake on message { pid: 6328, timestamp: '20121225172210417' }
+#TEST#proc.on  { pid: 6328, timestamp: '20121225172210417' }
+DEBUG: 6328,2,20121225172210417
+ChildProcess  { pid: 6328, timestamp: '20121225172210418' }
+zi:6327
+fake on message { pid: 6327, timestamp: '20121225172210429' }
+#TEST#proc.on  { pid: 6327, timestamp: '20121225172210429' }
+DEBUG: 6327,3,20121225172210429
+ChildProcess  { pid: 6327, timestamp: '20121225172210430' }
+zi:6320
+fake on message { pid: 6320, timestamp: '20121225172210508' }
+#TEST#proc.on  { pid: 6320, timestamp: '20121225172210508' }
+DEBUG: 6320,4,20121225172210508
+ChildProcess  { pid: 6320, timestamp: '20121225172210509' }
+zi:6322
+fake on message { pid: 6322, timestamp: '20121225172210513' }
+#TEST#proc.on  { pid: 6322, timestamp: '20121225172210513' }
+DEBUG: 6322,5,20121225172210513
+ChildProcess  { pid: 6322, timestamp: '20121225172210513' }
+zi:6318
+ChildProcess  { pid: 6318, timestamp: '20121225172210554' }
+fake on message { pid: 6318, timestamp: '20121225172210554' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172210554' }
+DEBUG: 6318,6,20121225172210554
+fake on message { pid: 6318, timestamp: '20121225172210554' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172210554' }
+DEBUG: the thread is wrong:6318,20121225172210554
+zi:6325
+fake on message { pid: 6325, timestamp: '20121225172210682' }
+#TEST#proc.on  { pid: 6325, timestamp: '20121225172210682' }
+DEBUG: 6325,7,20121225172210682
+ChildProcess  { pid: 6325, timestamp: '20121225172210682' }
+zi:6317
+ChildProcess  { pid: 6317, timestamp: '20121225172212315' }
+fake on message { pid: 6317, timestamp: '20121225172212315' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172212315' }
+DEBUG: 6317,8,20121225172212315
+DEBUG: COUNT=8
+DEBUG: it is over.8,6317
+set next task.
+DEBUG: it is over.8,6317
+fake on message { pid: 6317, timestamp: '20121225172212315' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172212315' }
+DEBUG: the thread is wrong:6317,20121225172212315
+队列大小：0
+DEBUG: 从线程池中取2个线程。
+DEBUG: toRunning:6317
+DEBUG: toRunning:6318
+zi:6317
+ChildProcess  { pid: 6317, timestamp: '20121225172220416' }
+fake on message { pid: 6317, timestamp: '20121225172220416' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172220416' }
+DEBUG: 6317,1,20121225172220416
+fake on message { pid: 6317, timestamp: '20121225172220416' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172220416' }
+DEBUG: the thread is wrong:6317,20121225172220416
+fake on message { pid: 6317, timestamp: '20121225172220416' }
+#TEST#proc.on  { pid: 6317, timestamp: '20121225172220416' }
+DEBUG: the thread is wrong:6317,20121225172220416
+zi:6318
+ChildProcess  { pid: 6318, timestamp: '20121225172220432' }
+fake on message { pid: 6318, timestamp: '20121225172220432' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172220432' }
+DEBUG: 6318,2,20121225172220432
+DEBUG: COUNT=2
+DEBUG: it is over.2,6318
+set next task.
+DEBUG: it is over.2,6318
+DEBUG: it is over.2,6318
+fake on message { pid: 6318, timestamp: '20121225172220432' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172220432' }
+DEBUG: the thread is wrong:6318,20121225172220432
+fake on message { pid: 6318, timestamp: '20121225172220432' }
+#TEST#proc.on  { pid: 6318, timestamp: '20121225172220432' }
+DEBUG: the thread is wrong:6318,20121225172220432
+
